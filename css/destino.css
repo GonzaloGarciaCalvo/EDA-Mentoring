@@ -1,5 +1,5 @@
 * {
-  margin: 0%;
+  margin: 0;
   padding: 0; }
 
 header {
@@ -7,7 +7,7 @@ header {
   font-family: 'Work Sans', sans-serif; }
 
 .logoNavbar {
-  width: 8rem;
+  width: 10rem;
   margin-bottom: 0rem;
   margin-left: 3rem; }
 
@@ -113,7 +113,7 @@ FUENTES TEXTOS INTERNOS (OPEN SANS) */
   display: inline-block; }
 
 .seccion1__titulo {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Work Sans', sans-serif;
   font-size: 2.5rem;
   font-weight: 400;
@@ -130,5 +130,29 @@ FUENTES TEXTOS INTERNOS (OPEN SANS) */
   width: 14rem;
   margin-top: 1rem; }
 
+.seccion1__boxImg {
+  position: relative; }
+
 .seccion1__img {
-  width: 90%; }
+  width: 87%;
+  z-index: -1; }
+
+.seccion1__boxLista {
+  background-color: #a8a8a8;
+  opacity: 0.65;
+  width: 17rem;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  z-index: 1;
+  position: absolute;
+  right: 1.7rem;
+  bottom: 0rem; }
+
+.seccion1__lista {
+  text-decoration: dotted;
+  margin-bottom: 0;
+  padding-left: 1rem; }
+
+.seccion1__lista li {
+  padding-left: 0.5rem;
+  font-weight: 600;
+  color: black; }
