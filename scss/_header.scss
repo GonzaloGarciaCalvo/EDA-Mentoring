@@ -7,45 +7,62 @@ header {
     font-family: 'Work Sans', sans-serif;
 }
 .logoNavbar {
-
     width: 8rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     margin-left: 3rem;
 }
-.tituloPrincipal {
+/* .tituloPrincipal {
     font-family:Verdana, Geneva, Tahoma, sans-serif  ;
-}
+} */
 
 #navbarNavAltMarkup {
     margin-bottom: 3rem;
-
+}
+.navbar {
+    padding-bottom: 0;
 }
 .navbar-nav {
     width: 100%;
     justify-content: end;
     margin-right: 2rem;
 }
+/* .nav-link p,span{ */
+.nav-link p,  .nav-link span{   
+    /* border-bottom: 2px solid #ffbd4a; */
+    /* transform: translateY(-2px); */
+    display: inline;
+    line-height: 1;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    text-underline-position: auto;
+    text-decoration-color: #ffbd4a !important;
+    text-underline-offset: 3px;
+}
 
 .bigText {
     font-size: 1.25rem;
-    display: inline;
-    line-height: 1.6rem;
+    /* display: inline; */
+    /* line-height: 1.6rem; */
     /* border-bottom: 3px solid black;
     border-right: transparent; */
+    color: black;
     padding-bottom: 0;
     margin-bottom: 0;
-    display: inline-block;
-    text-decoration: underline;
+    /* text-decoration: underline;
+    text-decoration-color: #ffbd4a; */
 }
 .normalText {
     font-size: 0.95rem;
     /* border-bottom: 2px solid black;
     border-spacing: 0; */
-    line-height: 1.3rem;
+    /* line-height: 1.3rem; */
     padding-bottom: 0;
     margin-bottom: 0;
+    color: black;
     display: inline-block;
-    text-decoration: underline;
+    /* text-decoration: underline;
+    text-decoration-color: #ffbd4a; */
 }
 .circuloE {
     background-color: #ff5c5c;

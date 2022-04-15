@@ -12,3 +12,29 @@
     color: #ffbd4a;
     display: inline-block;
 }
+.accion {
+    color: #a8a8a8;
+    display: inline-block;
+}
+.seccion1__titulo {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    line-height: 3.4rem;
+    &  span {
+        font-weight: 800;
+    }
+} 
+.seccion1__imgEmprendedores {
+    width: 14rem;
+    margin-top: 2.5rem;
+}
+.seccion1__imgProfesionales {
+    width: 14rem;
+    margin-top: 1rem;
+}
+.seccion1__img {
+    width: 90%;
+}
