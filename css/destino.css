@@ -92,6 +92,19 @@ header {
   width: 16rem;
   padding: 0.4rem; }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+  .navbar-nav {
+    margin-right: 1rem; }
+  .bigText {
+    font-size: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+  .normalText {
+    font-size: 0.7rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    display: inline-block; } }
+
 /* FUENTE INDICE (WORK SANS) - VERSALITAS
 FUENTES TEXTOS INTERNOS (OPEN SANS) */
 .explorar {
@@ -112,15 +125,18 @@ FUENTES TEXTOS INTERNOS (OPEN SANS) */
   color: #a8a8a8;
   display: inline-block; }
 
+.seccion1 {
+  padding-bottom: 3rem; }
+
 .seccion1__titulo {
-  /* font-family: 'Open Sans', sans-serif; */
-  font-family: 'Work Sans', sans-serif;
-  font-size: 2.5rem;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Work Sans', sans-serif; */
+  font-size: 2.7rem;
   font-weight: 400;
   margin-top: 1rem;
-  line-height: 3.4rem; }
+  line-height: 3.8rem; }
   .seccion1__titulo span {
-    font-weight: 800; }
+    font-weight: 700; }
 
 .seccion1__imgEmprendedores {
   width: 14rem;
@@ -135,17 +151,18 @@ FUENTES TEXTOS INTERNOS (OPEN SANS) */
 
 .seccion1__img {
   width: 87%;
+  min-width: 32rem;
   z-index: -1; }
 
 .seccion1__boxLista {
   background-color: #a8a8a8;
   opacity: 0.65;
   width: 17rem;
-  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  padding: 0.3rem 1rem 0.3rem 0.5rem;
   z-index: 1;
   position: absolute;
   right: 1.7rem;
-  bottom: 0rem; }
+  bottom: 1.5rem; }
 
 .seccion1__lista {
   text-decoration: dotted;
@@ -153,6 +170,94 @@ FUENTES TEXTOS INTERNOS (OPEN SANS) */
   padding-left: 1rem; }
 
 .seccion1__lista li {
+  font-size: 0.9rem;
   padding-left: 0.5rem;
   font-weight: 600;
   color: black; }
+
+.btnWapp {
+  margin-top: 2.5rem;
+  margin-left: 3rem;
+  border: 2px solid #a8a8a8;
+  display: inline-block;
+  width: 17rem;
+  background-color: white; }
+  .btnWapp img {
+    width: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+/* @media (max-width:577px){
+    .seccion1__titulo {
+        font-family: 'Open Sans', sans-serif;
+    
+        font-size: 2.2rem;
+        margin-top: 0.5rem;
+        line-height: 3.3rem;
+    } 
+    .seccion1__boxImg {
+        position: relative;
+        margin-top: 1rem;
+    }
+    .seccion1__img {
+        width: 87%;
+       
+        position: absolute;
+    }
+    .seccion1__boxLista {
+        background-color: #a8a8a8;
+        opacity: 0.65;
+        width: 17rem;
+        padding: 0.3rem 1rem 0.3rem 0.5rem;
+        
+        
+        
+    }
+} */
+@media (min-width: 578px) and (max-width: 767px) {
+  .seccion1__boxIzquierdo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .titledetail {
+    align-self: start;
+    padding-left: 1rem; }
+  .seccion1__titulo {
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 2.2rem;
+    margin-top: 0.5rem;
+    line-height: 3.3rem;
+    width: 70%; }
+  .seccion1__boxImg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; }
+  .seccion1__img {
+    width: 90%;
+    position: static; }
+  .seccion1__boxLista {
+    position: static;
+    display: flex;
+    /* position: absolute; right: 1rem; bottom: -4rem; */ } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .seccion1__img {
+    width: 90%;
+    min-width: 30rem; } }
+
+.seccion2 {
+  background-color: #ffbd4a;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 7rem 11rem 5rem 11rem;
+  word-spacing: 0.3rem;
+  letter-spacing: 0.05rem;
+  line-height: 4rem; }
+  .seccion2 span {
+    font-size: 1.7rem;
+    font-weight: 700; }
