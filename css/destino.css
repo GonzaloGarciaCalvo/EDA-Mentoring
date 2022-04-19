@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0; }
 
+* {
+  margin: 0;
+  padding: 0; }
+
 header {
   font-family: 'Roboto', sans-serif;
   font-family: 'Work Sans', sans-serif; }
@@ -107,6 +111,14 @@ header {
 
 /* FUENTE INDICE (WORK SANS) - VERSALITAS
 FUENTES TEXTOS INTERNOS (OPEN SANS) */
+/* $rojoMarca: #ff5c5c;
+$gris1Marca:#a8a8a8;
+$gris2Marca: #a6a6a6;
+$amarilloMarca:#ffbd4a; */
+* {
+  margin: 0;
+  padding: 0; }
+
 .explorar {
   color: #ff5c5c;
   display: inline-block; }
@@ -250,6 +262,14 @@ FUENTES TEXTOS INTERNOS (OPEN SANS) */
     width: 90%;
     min-width: 30rem; } }
 
+/* $rojoMarca: #ff5c5c;
+$gris1Marca:#a8a8a8;
+$gris2Marca: #a6a6a6;
+$amarilloMarca:#ffbd4a; */
+* {
+  margin: 0;
+  padding: 0; }
+
 .seccion2 {
   background-color: #ffbd4a;
   text-align: center;
@@ -261,3 +281,56 @@ FUENTES TEXTOS INTERNOS (OPEN SANS) */
   .seccion2 span {
     font-size: 1.7rem;
     font-weight: 700; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.seccion3 {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding-left: 2rem; }
+
+.seccion3__titulo {
+  background-color: #ffbd4a;
+  width: 31rem;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 3rem; }
+
+.secction3__emprendedores p {
+  font-size: 1.3rem; }
+
+.seccion3__boxTextoBtn {
+  display: flex;
+  flex-direction: row; }
+  .seccion3__boxTextoBtn p {
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+    font-size: 1.3rem;
+    color: white;
+    background-color: black;
+    font-weight: 600; }
+  .seccion3__boxTextoBtn img {
+    width: 2rem;
+    margin-left: 1rem; }
+
+.seccion3__pie--texto1 {
+  font-size: 1.05rem;
+  padding-left: 17rem;
+  padding-right: 17rem;
+  text-align: center; }
+
+.seccion3__pie--texto2 {
+  font-size: 1.3rem; }
+
+.seccion3__pie--texto3 {
+  font-weight: 700; }
+
+.seccion3__pie--texto4 {
+  font-size: 1.3rem; }
+
+.btnInfoEmprendedores {
+  padding: 0.15rem 0.5rem 0.15rem 0.3rem;
+  border: 1px solid black;
+  width: 6rem; }
