@@ -282,6 +282,26 @@ $amarilloMarca:#ffbd4a; */
     font-size: 1.7rem;
     font-weight: 700; }
 
+@media (max-width: 576px) {
+  .seccion2 {
+    padding: 3rem 2rem 2.5rem 2rem;
+    line-height: 3.3rem; } }
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .seccion2 {
+    padding: 3rem 3rem 2.5rem 3rem;
+    line-height: 3.3rem; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .seccion2 {
+    padding: 3rem 4rem 2.5rem 4rem;
+    line-height: 3.3rem; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .seccion2 {
+    padding: 4rem 6rem 4rem 6rem;
+    line-height: 3.3rem; } }
+
 * {
   margin: 0;
   padding: 0; }
@@ -289,21 +309,24 @@ $amarilloMarca:#ffbd4a; */
 .seccion3 {
   margin-top: 3rem;
   margin-bottom: 5rem;
-  padding-left: 2rem; }
+  /* padding-left: 2rem; */ }
 
 .seccion3__titulo {
   background-color: #ffbd4a;
-  width: 31rem;
+  max-width: 31rem;
   display: inline-block;
   text-align: center;
   margin-bottom: 3rem; }
 
-.secction3__emprendedores p {
-  font-size: 1.3rem; }
+.secction3__emprendedores {
+  padding-left: 2rem; }
+  .secction3__emprendedores p {
+    font-size: 1.3rem; }
 
 .seccion3__boxTextoBtn {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  padding-left: 2rem; }
   .seccion3__boxTextoBtn p {
     padding-right: 0.1rem;
     padding-left: 0.1rem;
@@ -314,6 +337,12 @@ $amarilloMarca:#ffbd4a; */
   .seccion3__boxTextoBtn img {
     width: 2rem;
     margin-left: 1rem; }
+
+#collapseExample .card {
+  padding-left: 2rem;
+  border: 0; }
+  #collapseExample .card .subtituloCrear, #collapseExample .card .subtituloAterrizar {
+    font-weight: 700; }
 
 .seccion3__pie--texto1 {
   font-size: 1.05rem;
@@ -331,8 +360,9 @@ $amarilloMarca:#ffbd4a; */
   font-size: 1.3rem; }
 
 .btnInfoEmprendedores {
-  margin-top: 4rem;
+  margin-top: 1.5rem;
   margin-bottom: 2rem;
+  margin-left: 2rem;
   padding: 0.15rem 0.5rem 0.15rem 0.3rem;
   border: 1px solid black;
   width: 6rem; }
@@ -352,9 +382,11 @@ $amarilloMarca:#ffbd4a; */
 .miModal__p p {
   font-size: 1.2rem;
   color: white;
-  background-color: #545454;
+  /* background-color: $grisFondo; */
   line-height: 1.7rem;
   padding-bottom: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
   display: table; }
   .miModal__p p span {
     font-weight: 600; }
@@ -362,3 +394,25 @@ $amarilloMarca:#ffbd4a; */
 /* .miModal__p span {
     font-weight: 600;
 } */
+@media (max-width: 576px) {
+  .seccion3 {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  /* .seccion3__titulo {
+        width: 31rem;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 3rem;
+    } */
+  .btnInfoEmprendedores {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .seccion3__boxTextoBtn img {
+    width: 2.5rem;
+    margin-left: 0.5rem; }
+  .seccion3__pie--texto1 {
+    font-size: 1.05rem;
+    padding-left: 2rem;
+    padding-right: 2rem; } }

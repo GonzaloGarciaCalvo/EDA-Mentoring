@@ -3,16 +3,17 @@
 .seccion3 {
     margin-top: 3rem;
     margin-bottom: 5rem;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
 }
 .seccion3__titulo {
     background-color:$amarilloMarca;
-    width: 31rem;
+    max-width: 31rem;
     display: inline-block;
     text-align: center;
     margin-bottom: 3rem;
 }
 .secction3__emprendedores {
+    padding-left: 2rem;
     & p {
         font-size: 1.3rem;
     }
@@ -20,6 +21,7 @@
 .seccion3__boxTextoBtn {
     display: flex;
     flex-direction: row;
+    padding-left: 2rem;
     & p {
         padding-right: 0.1rem;
         padding-left: 0.1rem;
@@ -31,6 +33,13 @@
     & img {
         width: 2rem;
         margin-left: 1rem;
+    }
+}
+#collapseExample .card {
+    padding-left: 2rem;
+    border: 0;
+    & .subtituloCrear,.subtituloAterrizar {
+        font-weight: 700;
     }
 }
 .seccion3__pie--texto1 {
@@ -49,8 +58,9 @@
     font-size: 1.3rem;
 }
 .btnInfoEmprendedores {
-    margin-top: 4rem;
+    margin-top: 1.5rem;
     margin-bottom: 2rem;
+    margin-left: 2rem;
     padding: 0.15rem 0.5rem 0.15rem 0.3rem;
     border: 1px solid black;
     width: 6rem;
@@ -60,6 +70,7 @@
     flex-direction: column;
 } */
 .miModal .miModal__titulo{
+
     margin-top: 3rem;
     margin-bottom: 4.5rem;
     font-size: 1.9rem;
@@ -72,14 +83,57 @@
 .miModal__p p{
     font-size: 1.2rem;
     color: white;
-    background-color: $grisFondo;
+    /* background-color: $grisFondo; */
     line-height: 1.7rem;
     padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
     display: table;
     & span {
         font-weight: 600;
     }
 }
+
 /* .miModal__p span {
     font-weight: 600;
 } */
+
+@media (max-width:576px){
+    .seccion3 {
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    /* .seccion3__titulo {
+        width: 31rem;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 3rem;
+    } */
+    .btnInfoEmprendedores {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .seccion3__boxTextoBtn {
+        
+        & img {
+            width: 2.5rem;
+            margin-left: 0.5rem;
+        }
+    }
+    .seccion3__pie--texto1 {
+        font-size: 1.05rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media (min-width:577px) and (max-width: 767px){
+    
+}
+@media (min-width:768px) and (max-width: 991px){
+    
+}
+@media (min-width:992px) and (max-width: 1199px){
+    
+}
