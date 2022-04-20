@@ -25,7 +25,7 @@
         padding-left: 0.1rem;
         font-size: 1.3rem;
         color: white;
-        background-color: black;
+        background-color: $grisFondo;
         font-weight: 600;
     }
     & img {
@@ -49,7 +49,37 @@
     font-size: 1.3rem;
 }
 .btnInfoEmprendedores {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
     padding: 0.15rem 0.5rem 0.15rem 0.3rem;
     border: 1px solid black;
     width: 6rem;
 }
+/* .miModal {
+    display: flex;
+    flex-direction: column;
+} */
+.miModal .miModal__titulo{
+    margin-top: 3rem;
+    margin-bottom: 4.5rem;
+    font-size: 1.9rem;
+    font-weight: 700;
+    & span {
+        font-weight: 400;
+    }
+}
+// el display table ajusta el background-color al contenido
+.miModal__p p{
+    font-size: 1.2rem;
+    color: white;
+    background-color: $grisFondo;
+    line-height: 1.7rem;
+    padding-bottom: 2px;
+    display: table;
+    & span {
+        font-weight: 600;
+    }
+}
+/* .miModal__p span {
+    font-weight: 600;
+} */
