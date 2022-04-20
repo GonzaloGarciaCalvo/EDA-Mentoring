@@ -367,6 +367,12 @@ $amarilloMarca:#ffbd4a; */
   border: 1px solid black;
   width: 6rem; }
 
+a.btnInfoEmprendedores {
+  text-decoration: none;
+  color: black; }
+  a.btnInfoEmprendedoreshover {
+    color: black !important; }
+
 /* .miModal {
     display: flex;
     flex-direction: column;

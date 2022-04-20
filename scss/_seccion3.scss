@@ -64,7 +64,14 @@
     padding: 0.15rem 0.5rem 0.15rem 0.3rem;
     border: 1px solid black;
     width: 6rem;
-}
+} 
+a.btnInfoEmprendedores {
+    text-decoration: none;
+    color: black;
+    &hover{
+        color: black !important;
+    }
+} 
 /* .miModal {
     display: flex;
     flex-direction: column;
