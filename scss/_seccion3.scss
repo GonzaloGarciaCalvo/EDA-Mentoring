@@ -39,7 +39,32 @@
     & img {
         width: 2rem;
         margin-left: 1rem;
+        opacity: 0.68;
     }
+}
+.seccion3__boxTextoBtn2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    & p {
+        padding-right: 0.1rem;
+        padding-left: 0.1rem;
+        font-size: 1.3rem;
+        background-color: $gris2Marca;
+        font-weight: 600;
+    }
+    & img {
+        width: 2rem;
+        margin-left: 1rem;
+        opacity: 0.45;
+    }
+}
+.subtituloCrear, .subtituloAterrizar {
+    font-weight: 700;
+}
+.subtituloRemodelar, .subtituloReinventar {
+    font-weight: 700;
+    color: $gris2Marca;
 }
 #collapseExample .card {
     padding-left: 2rem;
@@ -70,6 +95,7 @@
     margin-left: 2rem;
     padding: 0.15rem 0.5rem 0.15rem 0.3rem;
     border: 1px solid black;
+    display: inline-block;
     width: 6rem;
 } 
 a.btnInfo {
@@ -106,6 +132,10 @@ a.btnInfo {
     & span {
         font-weight: 600;
     }
+}
+.card.card-body {
+    padding-left: 2rem;
+    border: none;
 }
 
 /* .miModal__p span {
