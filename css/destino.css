@@ -52,27 +52,16 @@ header {
 
 .bigText {
   font-size: 0.9rem;
-  /* display: inline; */
-  /* line-height: 1.6rem; */
-  /* border-bottom: 3px solid black;
-    border-right: transparent; */
   color: black;
   padding-bottom: 0;
-  margin-bottom: 0;
-  /* text-decoration: underline;
-    text-decoration-color: #ffbd4a; */ }
+  margin-bottom: 0; }
 
 .normalText {
   font-size: 0.8rem;
-  /* border-bottom: 2px solid black;
-    border-spacing: 0; */
-  /* line-height: 1.3rem; */
   padding-bottom: 0;
   margin-bottom: 0;
   color: black;
-  display: inline-block;
-  /* text-decoration: underline;
-    text-decoration-color: #ffbd4a; */ }
+  display: inline-block; }
 
 /* @media (min-width:992px) and (max-width: 1200px){
     .navbar-nav {
@@ -91,6 +80,12 @@ header {
     }
     
 } */
+@media (max-width: 576px) {
+  .logoNavbar {
+    width: 5rem;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem; } }
+
 /* FUENTE INDICE (WORK SANS) - VERSALITAS
 FUENTES TEXTOS INTERNOS (OPEN SANS) */
 /* $rojoMarca: #ff5c5c;
@@ -254,43 +249,36 @@ body {
 .btnWapp {
   margin-top: 2.5rem;
   margin-left: 3rem;
-  /* border: 2px solid $gris1Marca; */
   display: block;
-  width: 4rem;
-  /* background-color: white; */
-  /* & img {
-        width: 8rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    } */ }
+  width: 4rem; }
 
-/* @media (max-width:577px){
-    .seccion1__titulo {
-        font-family: 'Open Sans', sans-serif;
-    
-        font-size: 2.2rem;
-        margin-top: 0.5rem;
-        line-height: 3.3rem;
-    } 
-    .seccion1__boxImg {
-        position: relative;
-        margin-top: 1rem;
-    }
-    .seccion1__img {
-        width: 87%;
-       
-        position: absolute;
-    }
-    .seccion1__boxLista {
-        background-color: #a8a8a8;
-        opacity: 0.65;
-        width: 17rem;
-        padding: 0.3rem 1rem 0.3rem 0.5rem;
-        
-        
-        
-    }
-} */
+@media (max-width: 577px) {
+  .seccion1__titulo {
+    font-size: 1.9rem;
+    padding-left: 0.8rem;
+    padding-right: 1.3rem;
+    margin-top: 0.5rem;
+    line-height: 3rem; }
+  .titledetail {
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+    margin-left: 0.8rem; }
+  .seccion1__imgEmprendedores {
+    width: 11rem;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    /* margin-right: 5rem; */
+    display: block; }
+  .seccion1__imgProfesionales {
+    width: 11rem;
+    margin-top: 1rem;
+    margin-left: 0.8rem; }
+  .btnWapp {
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    width: 3.5rem; } }
+
 @media (min-width: 578px) and (max-width: 767px) {
   .seccion1__boxIzquierdo {
     width: 100%;
@@ -353,8 +341,11 @@ body {
 
 @media (max-width: 576px) {
   .seccion2 {
-    padding: 3rem 2rem 2.5rem 2rem;
-    line-height: 3.3rem; } }
+    padding: 2rem 1.2rem 1.7rem 1.2rem;
+    line-height: 3rem;
+    font-size: 1.1rem; }
+    .seccion2 span {
+      font-size: 1.5rem; } }
 
 @media (min-width: 577px) and (max-width: 767px) {
   .seccion2 {
@@ -535,14 +526,12 @@ a.btnInfo {
   .seccion3 {
     margin-top: 3rem;
     margin-bottom: 5rem;
-    padding-left: 1rem;
-    padding-right: 1rem; }
-  /* .seccion3__titulo {
-        width: 31rem;
-        display: inline-block;
-        text-align: center;
-        margin-bottom: 3rem;
-    } */
+    padding-left: 0.7rem;
+    padding-right: 0.7rem; }
+  .seccion3__titulo {
+    max-width: 58rem;
+    margin-bottom: 3rem;
+    font-size: 1.05rem; }
   .btnInfoEmprendedores {
     margin-top: 2rem;
     margin-bottom: 2rem; }
@@ -552,4 +541,41 @@ a.btnInfo {
   .seccion3__pie--texto1 {
     font-size: 1.05rem;
     padding-left: 2rem;
-    padding-right: 2rem; } }
+    padding-right: 2rem; }
+  .secction3__emprendedores {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem; }
+    .secction3__emprendedores p {
+      font-size: 1.1rem; }
+  .seccion3__boxTextoBtn {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem; }
+    .seccion3__boxTextoBtn h4 {
+      padding-right: 0.1rem;
+      padding-left: 0.1rem;
+      margin-right: 0.5rem;
+      margin-top: 2rem;
+      font-size: 1.06rem; }
+    .seccion3__boxTextoBtn img {
+      margin-top: 2rem;
+      width: 1.5rem;
+      margin-left: 0.3rem;
+      /* transform: translateY(3px); */ }
+  .seccion3__boxTextoBtn2 {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem; }
+    .seccion3__boxTextoBtn2 h4 {
+      padding-right: 0.1rem;
+      padding-left: 0.1rem;
+      margin-right: 0.5rem;
+      margin-top: 2rem;
+      font-size: 1.06rem; }
+    .seccion3__boxTextoBtn2 img {
+      margin-top: 2rem;
+      width: 1.5rem;
+      margin-left: 0.3rem;
+      /* transform: translateY(3px); */ }
+  .btnInfo {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 0.8rem; } }

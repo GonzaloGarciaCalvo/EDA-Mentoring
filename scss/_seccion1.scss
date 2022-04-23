@@ -147,45 +147,43 @@ $amarilloMarca:#ffbd4a; */
 .btnWapp {
     margin-top: 2.5rem;
     margin-left: 3rem;
-    /* border: 2px solid $gris1Marca; */
     display: block;
     width: 4rem;
-    /* background-color: white; */
-    /* & img {
-        width: 8rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    } */
 }   
 
 
-/* @media (max-width:577px){
+@media (max-width:577px){
     .seccion1__titulo {
-        font-family: 'Open Sans', sans-serif;
-    
-        font-size: 2.2rem;
+        font-size: 1.9rem;
+        padding-left: 0.8rem;
+        padding-right: 1.3rem;
         margin-top: 0.5rem;
-        line-height: 3.3rem;
+        line-height: 3rem;
     } 
-    .seccion1__boxImg {
-        position: relative;
+    .titledetail{
+        font-size: 0.9rem;
+        margin-top: 0.6rem;
+        margin-left: 0.8rem;
+    }
+    .seccion1__imgEmprendedores {
+        width: 11rem;
         margin-top: 1rem;
+        margin-left: 0.8rem;
+        /* margin-right: 5rem; */
+        display: block;
     }
-    .seccion1__img {
-        width: 87%;
-       
-        position: absolute;
+    .seccion1__imgProfesionales {
+        width: 11rem;
+        margin-top: 1rem;
+        margin-left: 0.8rem;
     }
-    .seccion1__boxLista {
-        background-color: #a8a8a8;
-        opacity: 0.65;
-        width: 17rem;
-        padding: 0.3rem 1rem 0.3rem 0.5rem;
-        
-        
-        
-    }
-} */
+    .btnWapp {
+        margin-top: 1rem;
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+        width: 3.5rem;
+    }   
+}
 @media (min-width:578px) and (max-width: 767px){
     .seccion1__boxIzquierdo {
         width: 100%;

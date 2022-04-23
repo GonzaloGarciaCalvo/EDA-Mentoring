@@ -20,8 +20,12 @@ $amarilloMarca:#ffbd4a; */
 
 @media (max-width:576px){
     .seccion2 {
-        padding: 3rem 2rem 2.5rem 2rem;
-        line-height: 3.3rem;
+        padding: 2rem 1.2rem 1.7rem 1.2rem;
+        line-height: 3rem;
+        font-size: 1.1rem;
+        & span {
+            font-size: 1.5rem;
+        }
     }
 }
 @media (min-width:577px) and (max-width: 767px){
