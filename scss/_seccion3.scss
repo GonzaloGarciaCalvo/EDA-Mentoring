@@ -7,56 +7,66 @@
 }
 .seccion3__titulo {
     background-color:$amarilloMarca;
-    max-width: 48rem;
+    max-width: 56rem;
     display: inline-block;
     text-align: center;
     margin-bottom: 3.5rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     word-spacing: 0.1rem;
     letter-spacing: 2px;
 }
 .secction3__emprendedores {
-    padding-left: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     & p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 .logoEmpProfSec3 {
-    width: 15rem;
+    width: 12rem;
 }
 .seccion3__boxTextoBtn {
     display: flex;
     flex-direction: row;
-    padding-left: 2rem;
-    & p {
+    padding-left: 4rem;
+    & h4 {
         padding-right: 0.1rem;
         padding-left: 0.1rem;
-        font-size: 1.3rem;
+        margin-top: 2rem;
+        font-size: 1.06rem;
+        /* line-height: 1.1; */
         color: white;
         background-color: $grisFondo;
         font-weight: 600;
+        
     }
     & img {
-        width: 2rem;
+        margin-top: 2rem;
+        width: 1.5rem;
         margin-left: 1rem;
         opacity: 0.68;
+        transform: translateY(-3px);
     }
 }
 .seccion3__boxTextoBtn2 {
     display: flex;
     flex-direction: row;
-    padding-left: 2rem;
-    & p {
+    padding-left: 4rem;
+    & h4 {
         padding-right: 0.1rem;
         padding-left: 0.1rem;
-        font-size: 1.3rem;
+        margin-top: 2rem;
+        /* margin-bottom: 0.1rem; */
+        font-size: 1.15rem;
         background-color: $gris2Marca;
         font-weight: 600;
     }
     & img {
-        width: 2rem;
+        margin-top: 2rem;
+        width: 1.5rem;
         margin-left: 1rem;
         opacity: 0.45;
+        transform: translateY(-3px);
     }
 }
 .subtituloCrear, .subtituloAterrizar {
@@ -74,25 +84,25 @@
     }
 }
 .seccion3__pie--texto1 {
-    font-size: 1.05rem;
+    font-size: 1rem;
     padding-left: 17rem;
     padding-right: 17rem;
     text-align: center;
     margin-top: 2.5rem;
 }
 .seccion3__pie--texto2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .seccion3__pie--texto3 {
     font-weight: 700;
 }
 .seccion3__pie--texto4 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .btnInfo {
     margin-top: 1.5rem;
     margin-bottom: 2rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
     padding: 0.15rem 0.5rem 0.15rem 0.3rem;
     border: 1px solid black;
     display: inline-block;
@@ -113,7 +123,7 @@ a.btnInfo {
 
     margin-top: 3rem;
     margin-bottom: 4.5rem;
-    font-size: 1.9rem;
+    font-size: 2rem;
     font-weight: 700;
     & span {
         font-weight: 400;
@@ -123,7 +133,7 @@ a.btnInfo {
 .miModal__p p{
     font-size: 1.2rem;
     color: white;
-    /* background-color: $grisFondo; */
+    background-color: $grisFondo;
     line-height: 1.7rem;
     padding-bottom: 2px;
     padding-left: 3px;
@@ -133,8 +143,24 @@ a.btnInfo {
         font-weight: 600;
     }
 }
+.miModal2__p p{
+    font-size: 1.2rem;
+    background-color: $gris1Marca;
+    line-height: 1.7rem;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    display: table;
+    & span {
+        font-weight: 600;
+    }
+}
+.modal-footer {
+    justify-content: center;
+}
 .card.card-body {
-    padding-left: 2rem;
+    padding-left: 4rem;
+    padding-right: 3rem;
     border: none;
 }
 

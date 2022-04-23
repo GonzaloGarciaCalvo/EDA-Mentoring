@@ -3,11 +3,11 @@
     padding: 0;
 }
 header {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Work Sans', sans-serif;
 }
 .logoNavbar {
-    width: 10rem;
+    width: 7.5rem;
     margin-bottom: 0rem;
     margin-left: 3rem;
 }
@@ -16,7 +16,12 @@ header {
 } */
 
 #navbarNavAltMarkup {
-    margin-bottom: 3rem;
+    margin-bottom: 1.8rem;
+}
+.navbar-brand {
+    padding-top: 0.1rem;
+    padding-bottom: 0;
+    box-sizing: border-box;
 }
 .navbar {
     padding-bottom: 0;
@@ -34,14 +39,14 @@ header {
     line-height: 1;
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 1px;
     text-underline-position: auto;
     text-decoration-color: #ffbd4a !important;
     text-underline-offset: 3px;
 }
 
 .bigText {
-    font-size: 1.25rem;
+    font-size: 0.9rem;
     /* display: inline; */
     /* line-height: 1.6rem; */
     /* border-bottom: 3px solid black;
@@ -53,7 +58,7 @@ header {
     text-decoration-color: #ffbd4a; */
 }
 .normalText {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     /* border-bottom: 2px solid black;
     border-spacing: 0; */
     /* line-height: 1.3rem; */
@@ -64,55 +69,25 @@ header {
     /* text-decoration: underline;
     text-decoration-color: #ffbd4a; */
 }
-.circuloE {
-    background-color: #ff5c5c;
-    border-radius: 50%;
-    width: 2.1rem;
-    height: 2.1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-}
-.textoCirculo {
-    font-size: 1.3rem;
-    line-height:2.1rem;
-    margin-bottom:0 ;
-    margin-top: 0;
-    transform: translate(0px, -1px);
-}
 
-.tituloEmprendedores {
-    font-size: 1.1rem;
-    letter-spacing: 0.15rem;
-    color: white;
-    margin-bottom: 0;
-    padding-top: 0.1rem;
-}
-.recuadroEmprendedores {
-    border-radius: 0.8rem;
-    background-color: black;
-    width: 16rem;
-    padding: 0.4rem;
-}
 
-@media (min-width:992px) and (max-width: 1200px){
+/* @media (min-width:992px) and (max-width: 1200px){
     .navbar-nav {
         margin-right: 1rem;
     }
     .bigText {
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding-bottom: 0;
         margin-bottom: 0;
     }
     .normalText {
-        font-size: 0.7rem;
+        font-size: 0.75rem;
         padding-bottom: 0;
         margin-bottom: 0;
         display: inline-block;
     }
     
-}
+} */
 
 
 

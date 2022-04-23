@@ -3,6 +3,11 @@ $gris1Marca:#a8a8a8;
 $gris2Marca: #a6a6a6;
 $amarilloMarca:#ffbd4a; */
 @import "generales";
+.titledetail{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+}
 .explorar {
     color: $rojoMarca;
     display: inline-block;
@@ -27,7 +32,7 @@ $amarilloMarca:#ffbd4a; */
 .seccion1__titulo {
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Work Sans', sans-serif; */
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     font-weight: 400;
     margin-top: 1rem;
     line-height: 3.8rem;
@@ -35,31 +40,100 @@ $amarilloMarca:#ffbd4a; */
         font-weight: 700;
     }
 } 
-.seccion1__imgEmprendedores {
+.recuadroEmprendedores {
+    border-radius: 0.7rem;
+    background-color: $grisFondo;
     width: 14rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.5rem;
+    /* transform: translateX(3rem); */
+}
+.recuadroProfesionales {
+    border-radius: 0.7rem;
+    background-color: rgb(205, 203, 203);
+    width: 14rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.5rem;
+    /* transform: translateX(3rem); */
+}
+
+/***** Logo emprendedores y profesionales *****/
+@mixin circuloLogo {
+    border-radius: 50%;
+    width: 1.8rem;
+    height: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.circuloE {
+    @include circuloLogo;
+    background-color: $rojoMarca;
+}
+.circuloD {
+    @include circuloLogo; 
+    background-color: $amarilloMarca;
+    margin-left: 0.15rem;
+    margin-right: 0.15rem
+}
+.circuloA {
+    @include circuloLogo;
+    background-color: $gris1Marca;
+}
+.textoCirculo {
+    font-size: 1.1rem;
+    line-height:2.1rem;
+    margin-bottom:0 ;
+    margin-top: 0;
+    transform: translate(0px, -1px);
+}
+.tituloEmprendedores {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: white;
+    padding-top: 1/16rem;
+    margin-bottom: 0;
+}
+.tituloProfesionales {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    padding-top: 0.1rem;
+    margin-bottom: 0;
+}
+/* FIN Logo*/
+
+.seccion1__imgEmprendedores {
+    width: 12rem;
     margin-top: 2.5rem;
+    margin-right: 4rem;
 }
 .seccion1__imgProfesionales {
-    width: 14rem;
+    width: 12rem;
     margin-top: 1rem;
 }
 .seccion1__boxImg {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-.seccion1__img {
-    width: 87%;
-    min-width: 32rem;
-    z-index: -1;
-}
-.seccion1__boxLista {
+/* .seccion1__img {
+    max-width: 100%;
+    height: auto;
+    //min-width: 32rem;
+    
+} */
+/* .seccion1__boxLista {
     background-color: #a8a8a8;
     opacity: 0.65;
     width: 17rem;
     padding: 0.3rem 1rem 0.3rem 0.5rem;
     z-index: 1;
     position: absolute; right: 1.7rem; bottom: 1.5rem;
-}
-.seccion1__lista {
+} */
+/* .seccion1__lista {
     text-decoration: dotted;
     margin-bottom: 0;
     padding-left: 1rem;
@@ -69,19 +143,19 @@ $amarilloMarca:#ffbd4a; */
     padding-left: 0.5rem;
     font-weight: 600;
     color: black;
-}
+} */
 .btnWapp {
     margin-top: 2.5rem;
     margin-left: 3rem;
-    border: 2px solid $gris1Marca;
-    display: inline-block;
-    width: 17rem;
-    background-color: white;
-    & img {
+    /* border: 2px solid $gris1Marca; */
+    display: block;
+    width: 4rem;
+    /* background-color: white; */
+    /* & img {
         width: 8rem;
         padding-left: 1rem;
         padding-right: 1rem;
-    }
+    } */
 }   
 
 
@@ -133,28 +207,28 @@ $amarilloMarca:#ffbd4a; */
         
     } 
     .seccion1__boxImg {
-        position: relative;
+       /*  position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 1rem;
+        margin-top: 1rem; */
+        padding-left: 0;
+        padding-right: 0;
     }
     .seccion1__img {
         width: 90%;
-        position: static;
     }
-    .seccion1__boxLista {
+    /* .seccion1__boxLista {
         position: static;
         display: flex;
-        /* position: absolute; right: 1rem; bottom: -4rem; */
-    }
+    } */
 }
 
 @media (min-width:768px) and (max-width: 991px){
    
     .seccion1__img {
-        width: 90%;
-        min-width: 30rem;
+        padding-left: 0;
+        padding-right: 0;
     }
 }

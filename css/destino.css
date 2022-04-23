@@ -3,18 +3,18 @@
   padding: 0; }
 
 body {
-  padding-top: 6.3rem; }
+  padding-top: 4.65rem; }
 
 * {
   margin: 0;
   padding: 0; }
 
 header {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-family: 'Work Sans', sans-serif; }
 
 .logoNavbar {
-  width: 10rem;
+  width: 7.5rem;
   margin-bottom: 0rem;
   margin-left: 3rem; }
 
@@ -22,7 +22,12 @@ header {
     font-family:Verdana, Geneva, Tahoma, sans-serif  ;
 } */
 #navbarNavAltMarkup {
-  margin-bottom: 3rem; }
+  margin-bottom: 1.8rem; }
+
+.navbar-brand {
+  padding-top: 0.1rem;
+  padding-bottom: 0;
+  box-sizing: border-box; }
 
 .navbar {
   padding-bottom: 0; }
@@ -40,13 +45,13 @@ header {
   line-height: 1;
   text-decoration-line: underline;
   text-decoration-style: solid;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
   text-underline-position: auto;
   text-decoration-color: #ffbd4a !important;
   text-underline-offset: 3px; }
 
 .bigText {
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   /* display: inline; */
   /* line-height: 1.6rem; */
   /* border-bottom: 3px solid black;
@@ -58,7 +63,7 @@ header {
     text-decoration-color: #ffbd4a; */ }
 
 .normalText {
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   /* border-bottom: 2px solid black;
     border-spacing: 0; */
   /* line-height: 1.3rem; */
@@ -69,49 +74,23 @@ header {
   /* text-decoration: underline;
     text-decoration-color: #ffbd4a; */ }
 
-.circuloE {
-  background-color: #ff5c5c;
-  border-radius: 50%;
-  width: 2.1rem;
-  height: 2.1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.textoCirculo {
-  font-size: 1.3rem;
-  line-height: 2.1rem;
-  margin-bottom: 0;
-  margin-top: 0;
-  transform: translate(0px, -1px); }
-
-.tituloEmprendedores {
-  font-size: 1.1rem;
-  letter-spacing: 0.15rem;
-  color: white;
-  margin-bottom: 0;
-  padding-top: 0.1rem; }
-
-.recuadroEmprendedores {
-  border-radius: 0.8rem;
-  background-color: black;
-  width: 16rem;
-  padding: 0.4rem; }
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  .navbar-nav {
-    margin-right: 1rem; }
-  .bigText {
-    font-size: 1rem;
-    padding-bottom: 0;
-    margin-bottom: 0; }
-  .normalText {
-    font-size: 0.7rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    display: inline-block; } }
-
+/* @media (min-width:992px) and (max-width: 1200px){
+    .navbar-nav {
+        margin-right: 1rem;
+    }
+    .bigText {
+        font-size: 0.9rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .normalText {
+        font-size: 0.75rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        display: inline-block;
+    }
+    
+} */
 /* FUENTE INDICE (WORK SANS) - VERSALITAS
 FUENTES TEXTOS INTERNOS (OPEN SANS) */
 /* $rojoMarca: #ff5c5c;
@@ -123,7 +102,12 @@ $amarilloMarca:#ffbd4a; */
   padding: 0; }
 
 body {
-  padding-top: 6.3rem; }
+  padding-top: 4.65rem; }
+
+.titledetail {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  margin-top: 0.6rem; }
 
 .explorar {
   color: #ff5c5c;
@@ -149,61 +133,136 @@ body {
 .seccion1__titulo {
   font-family: 'Open Sans', sans-serif;
   /* font-family: 'Work Sans', sans-serif; */
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   font-weight: 400;
   margin-top: 1rem;
   line-height: 3.8rem; }
   .seccion1__titulo span {
     font-weight: 700; }
 
-.seccion1__imgEmprendedores {
+.recuadroEmprendedores {
+  border-radius: 0.7rem;
+  background-color: #545454;
   width: 14rem;
-  margin-top: 2.5rem; }
+  padding: 0.3rem 0.4rem 0.3rem 0.5rem;
+  /* transform: translateX(3rem); */ }
+
+.recuadroProfesionales {
+  border-radius: 0.7rem;
+  background-color: #cdcbcb;
+  width: 14rem;
+  padding: 0.3rem 0.4rem 0.3rem 0.5rem;
+  /* transform: translateX(3rem); */ }
+
+/***** Logo emprendedores y profesionales *****/
+.circuloE {
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff5c5c; }
+
+.circuloD {
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffbd4a;
+  margin-left: 0.15rem;
+  margin-right: 0.15rem; }
+
+.circuloA {
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #a8a8a8; }
+
+.textoCirculo {
+  font-size: 1.1rem;
+  line-height: 2.1rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  transform: translate(0px, -1px); }
+
+.tituloEmprendedores {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  color: white;
+  padding-top: 1/16rem;
+  margin-bottom: 0; }
+
+.tituloProfesionales {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  padding-top: 0.1rem;
+  margin-bottom: 0; }
+
+/* FIN Logo*/
+.seccion1__imgEmprendedores {
+  width: 12rem;
+  margin-top: 2.5rem;
+  margin-right: 4rem; }
 
 .seccion1__imgProfesionales {
-  width: 14rem;
+  width: 12rem;
   margin-top: 1rem; }
 
 .seccion1__boxImg {
-  position: relative; }
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
 
-.seccion1__img {
-  width: 87%;
-  min-width: 32rem;
-  z-index: -1; }
-
-.seccion1__boxLista {
-  background-color: #a8a8a8;
-  opacity: 0.65;
-  width: 17rem;
-  padding: 0.3rem 1rem 0.3rem 0.5rem;
-  z-index: 1;
-  position: absolute;
-  right: 1.7rem;
-  bottom: 1.5rem; }
-
-.seccion1__lista {
-  text-decoration: dotted;
-  margin-bottom: 0;
-  padding-left: 1rem; }
-
+/* .seccion1__img {
+    max-width: 100%;
+    height: auto;
+    //min-width: 32rem;
+    
+} */
+/* .seccion1__boxLista {
+    background-color: #a8a8a8;
+    opacity: 0.65;
+    width: 17rem;
+    padding: 0.3rem 1rem 0.3rem 0.5rem;
+    z-index: 1;
+    position: absolute; right: 1.7rem; bottom: 1.5rem;
+} */
+/* .seccion1__lista {
+    text-decoration: dotted;
+    margin-bottom: 0;
+    padding-left: 1rem;
+}
 .seccion1__lista li {
-  font-size: 0.9rem;
-  padding-left: 0.5rem;
-  font-weight: 600;
-  color: black; }
-
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+    font-weight: 600;
+    color: black;
+} */
 .btnWapp {
   margin-top: 2.5rem;
   margin-left: 3rem;
-  border: 2px solid #a8a8a8;
-  display: inline-block;
-  width: 17rem;
-  background-color: white; }
-  .btnWapp img {
-    width: 8rem;
-    padding-left: 1rem;
-    padding-right: 1rem; }
+  /* border: 2px solid $gris1Marca; */
+  display: block;
+  width: 4rem;
+  /* background-color: white; */
+  /* & img {
+        width: 8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    } */ }
 
 /* @media (max-width:577px){
     .seccion1__titulo {
@@ -249,24 +308,25 @@ body {
     line-height: 3.3rem;
     width: 70%; }
   .seccion1__boxImg {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem; }
+    /*  position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem; */
+    padding-left: 0;
+    padding-right: 0; }
   .seccion1__img {
-    width: 90%;
-    position: static; }
-  .seccion1__boxLista {
-    position: static;
-    display: flex;
-    /* position: absolute; right: 1rem; bottom: -4rem; */ } }
+    width: 90%; }
+  /* .seccion1__boxLista {
+        position: static;
+        display: flex;
+    } */ }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .seccion1__img {
-    width: 90%;
-    min-width: 30rem; } }
+    padding-left: 0;
+    padding-right: 0; } }
 
 /* $rojoMarca: #ff5c5c;
 $gris1Marca:#a8a8a8;
@@ -277,18 +337,18 @@ $amarilloMarca:#ffbd4a; */
   padding: 0; }
 
 body {
-  padding-top: 6.3rem; }
+  padding-top: 4.65rem; }
 
 .seccion2 {
   background-color: #ffbd4a;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   padding: 7rem 11rem 5rem 11rem;
   word-spacing: 0.3rem;
   letter-spacing: 0.05rem;
   line-height: 4rem; }
   .seccion2 span {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 700; }
 
 @media (max-width: 576px) {
@@ -316,7 +376,7 @@ body {
   padding: 0; }
 
 body {
-  padding-top: 6.3rem; }
+  padding-top: 4.65rem; }
 
 .seccion3 {
   margin-top: 3rem;
@@ -325,52 +385,61 @@ body {
 
 .seccion3__titulo {
   background-color: #ffbd4a;
-  max-width: 48rem;
+  max-width: 56rem;
   display: inline-block;
   text-align: center;
   margin-bottom: 3.5rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   word-spacing: 0.1rem;
   letter-spacing: 2px; }
 
 .secction3__emprendedores {
-  padding-left: 2rem; }
+  padding-left: 4rem;
+  padding-right: 4rem; }
   .secction3__emprendedores p {
-    font-size: 1.3rem; }
+    font-size: 1.1rem; }
 
 .logoEmpProfSec3 {
-  width: 15rem; }
+  width: 12rem; }
 
 .seccion3__boxTextoBtn {
   display: flex;
   flex-direction: row;
-  padding-left: 2rem; }
-  .seccion3__boxTextoBtn p {
+  padding-left: 4rem; }
+  .seccion3__boxTextoBtn h4 {
     padding-right: 0.1rem;
     padding-left: 0.1rem;
-    font-size: 1.3rem;
+    margin-top: 2rem;
+    font-size: 1.06rem;
+    /* line-height: 1.1; */
     color: white;
     background-color: #545454;
     font-weight: 600; }
   .seccion3__boxTextoBtn img {
-    width: 2rem;
+    margin-top: 2rem;
+    width: 1.5rem;
     margin-left: 1rem;
-    opacity: 0.68; }
+    opacity: 0.68;
+    transform: translateY(-3px); }
 
 .seccion3__boxTextoBtn2 {
   display: flex;
   flex-direction: row;
-  padding-left: 2rem; }
-  .seccion3__boxTextoBtn2 p {
+  padding-left: 4rem; }
+  .seccion3__boxTextoBtn2 h4 {
     padding-right: 0.1rem;
     padding-left: 0.1rem;
-    font-size: 1.3rem;
+    margin-top: 2rem;
+    /* margin-bottom: 0.1rem; */
+    font-size: 1.15rem;
     background-color: #a6a6a6;
     font-weight: 600; }
   .seccion3__boxTextoBtn2 img {
-    width: 2rem;
+    margin-top: 2rem;
+    width: 1.5rem;
     margin-left: 1rem;
-    opacity: 0.45; }
+    opacity: 0.45;
+    transform: translateY(-3px); }
 
 .subtituloCrear, .subtituloAterrizar {
   font-weight: 700; }
@@ -386,25 +455,25 @@ body {
     font-weight: 700; }
 
 .seccion3__pie--texto1 {
-  font-size: 1.05rem;
+  font-size: 1rem;
   padding-left: 17rem;
   padding-right: 17rem;
   text-align: center;
   margin-top: 2.5rem; }
 
 .seccion3__pie--texto2 {
-  font-size: 1.3rem; }
+  font-size: 1.2rem; }
 
 .seccion3__pie--texto3 {
   font-weight: 700; }
 
 .seccion3__pie--texto4 {
-  font-size: 1.3rem; }
+  font-size: 1.2rem; }
 
 .btnInfo {
   margin-top: 1.5rem;
   margin-bottom: 2rem;
-  margin-left: 2rem;
+  margin-left: 4rem;
   padding: 0.15rem 0.5rem 0.15rem 0.3rem;
   border: 1px solid black;
   display: inline-block;
@@ -423,7 +492,7 @@ a.btnInfo {
 .miModal .miModal__titulo {
   margin-top: 3rem;
   margin-bottom: 4.5rem;
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 700; }
   .miModal .miModal__titulo span {
     font-weight: 400; }
@@ -431,7 +500,7 @@ a.btnInfo {
 .miModal__p p {
   font-size: 1.2rem;
   color: white;
-  /* background-color: $grisFondo; */
+  background-color: #545454;
   line-height: 1.7rem;
   padding-bottom: 2px;
   padding-left: 3px;
@@ -440,8 +509,23 @@ a.btnInfo {
   .miModal__p p span {
     font-weight: 600; }
 
+.miModal2__p p {
+  font-size: 1.2rem;
+  background-color: #a8a8a8;
+  line-height: 1.7rem;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: table; }
+  .miModal2__p p span {
+    font-weight: 600; }
+
+.modal-footer {
+  justify-content: center; }
+
 .card.card-body {
-  padding-left: 2rem;
+  padding-left: 4rem;
+  padding-right: 3rem;
   border: none; }
 
 /* .miModal__p span {
