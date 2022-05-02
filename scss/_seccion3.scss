@@ -15,9 +15,20 @@
     word-spacing: 0.1rem;
     letter-spacing: 2px;
 }
-.secction3__emprendedores {
+.seccion3__emprendedores {
     padding-left: 4rem;
     padding-right: 4rem;
+    margin-bottom: 2rem;
+    height: 9rem;
+    & p {
+        font-size: 1.1rem;
+    }
+}
+.seccion3__profesionales {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-bottom: 2rem;
+    height: 9rem;
     & p {
         font-size: 1.1rem;
     }
@@ -29,42 +40,77 @@
     display: flex;
     flex-direction: row;
     padding-left: 4rem;
-    & h4 {
+    /* & h4 {
         padding-right: 0.1rem;
         padding-left: 0.1rem;
         margin-top: 2rem;
         font-size: 1.06rem;
-        /* line-height: 1.1; */
+        line-height: 1.4rem;
         color: white;
         background-color: $grisFondo;
         font-weight: 600;
         
-    }
+    } */
     & img {
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
         width: 1.5rem;
         margin-left: 1rem;
         opacity: 0.68;
-        transform: translateY(-3px);
+        /* transform: translateY(1px); */
     }
 }
+
+
+.boxTextoBtn__texto {
+    background-color: $grisFondo;
+    color: white;
+    font-size: 1.06rem;
+    margin-left: 0rem;
+    // margin-top: 2rem; 
+    // width: 50%; 
+}
+.boxTextoBtn2__texto {
+    background-color: $gris2Marca;
+    font-size: 1.06rem;
+    margin-left: 0rem;
+    // margin-top: 2rem; 
+    // width: 50%; 
+}
+.linea__p1{
+    display: inline-block;
+    line-height: 1.15rem !important;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.linea__p2 {
+    display: inline-block;
+    line-height: 1.15rem;
+    margin-bottom: 0rem;
+}
+.dropdownEmp-Prof {
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+} 
+
 .seccion3__boxTextoBtn2 {
     display: flex;
     flex-direction: row;
     padding-left: 4rem;
-    & h4 {
+    /* & h4 {
         padding-right: 0.1rem;
         padding-left: 0.1rem;
-        margin-top: 2rem;
-        /* margin-bottom: 0.1rem; */
+        // margin-top: 2rem;
+        // margin-bottom: 0.1rem;
         font-size: 1.15rem;
         background-color: $gris2Marca;
         font-weight: 600;
-    }
+    } */
     & img {
-        margin-top: 2rem;
+        margin-top: 0rem;
         width: 1.5rem;
         margin-left: 1rem;
+        margin-right: 1.5rem; //nuevo
         opacity: 0.45;
         transform: translateY(-3px);
     }
@@ -85,12 +131,15 @@
 }
 .seccion3__pie--texto1 {
     font-size: 1rem;
-    padding-left: 17rem;
-    padding-right: 17rem;
+    /* padding-left: 17rem;
+    padding-right: 17rem; */
     text-align: center;
     margin-top: 2.5rem;
 }
 .seccion3__pie--texto2 {
+    font-weight: 700;
+}
+/* .seccion3__pie--texto2 {
     font-size: 1.2rem;
 }
 .seccion3__pie--texto3 {
@@ -98,7 +147,7 @@
 }
 .seccion3__pie--texto4 {
     font-size: 1.2rem;
-}
+} */
 .btnInfo {
     margin-top: 1.5rem;
     margin-bottom: 2rem;
@@ -119,16 +168,33 @@ a.btnInfo {
     display: flex;
     flex-direction: column;
 } */
-.miModal .miModal__titulo{
-
+/* .miModal .miModal__titulo{
     margin-top: 3rem;
     margin-bottom: 4.5rem;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 800;
     & span {
-        font-weight: 400;
+        font-weight: 500;
     }
+} */
+.logoModal {
+    display: block;
 }
+.miModal .miModal__tituloA {
+    margin-top: 3rem;
+    /* margin-bottom: 4.5rem; */
+    font-size: 2rem;
+    font-weight: 800;
+    display: inline-block;
+}
+.miModal .miModal__tituloB{
+    /* margin-top: 3rem; */
+    margin-bottom: 4.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
 // el display table ajusta el background-color al contenido
 .miModal__p p{
     font-size: 1.2rem;
@@ -168,6 +234,7 @@ a.btnInfo {
     font-weight: 600;
 } */
 
+
 @media (max-width:576px){
     .seccion3 {
         margin-top: 3rem;
@@ -179,6 +246,22 @@ a.btnInfo {
         max-width: 58rem;
         margin-bottom: 3rem;
         font-size: 1.05rem;
+    }
+    .seccion3__emprendedores {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        height: 9rem;
+        & p {
+            font-size: 1.1rem;
+        }
+    }
+    .seccion3__profesionales {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        height: 12rem;
+        & p {
+            font-size: 1.1rem;
+        }
     }
     .btnInfoEmprendedores {
         margin-top: 2rem;
@@ -193,28 +276,21 @@ a.btnInfo {
     }
     .seccion3__pie--texto1 {
         font-size: 1.05rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    .secction3__emprendedores {
-        padding-left: 0.8rem;
-        padding-right: 0.8rem;
-        & p {
-            font-size: 1.1rem;
-        }
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
     .seccion3__boxTextoBtn {
         padding-left: 0.8rem;
         padding-right: 0.8rem;
-        & h4 {
+        /* & h4 {
             padding-right: 0.1rem;
             padding-left: 0.1rem;
             margin-right: 0.5rem;
             margin-top: 2rem;
             font-size: 1.06rem;
-        }
+        } */
         & img {
-            margin-top: 2rem;
+            margin-top: 0rem;
             width: 1.5rem;
             margin-left: 0.3rem;
             /* transform: translateY(3px); */
@@ -223,32 +299,119 @@ a.btnInfo {
     .seccion3__boxTextoBtn2 {
         padding-left: 0.8rem;
         padding-right: 0.8rem;
-        & h4 {
+        /* & h4 {
             padding-right: 0.1rem;
             padding-left: 0.1rem;
             margin-right: 0.5rem;
             margin-top: 2rem;
             font-size: 1.06rem;
-        }
+        } */
         & img {
-            margin-top: 2rem;
+            margin-top: 0rem;
             width: 1.5rem;
             margin-left: 0.3rem;
             /* transform: translateY(3px); */
         }
     }
     .btnInfo {
+        font-size: 0.85rem;
         margin-top: 1.5rem;
         margin-bottom: 2rem;
         margin-left: 0.8rem;
+        border: none;
     } 
+    .miModal .miModal__titulo{
+        margin-top: 3rem;
+        margin-bottom: 4.5rem;
+        font-size: 1.6rem;
+    }
+    .miModal .miModal__tituloA{
+        font-size: 1.6rem;
+        margin-top: 3rem;
+        margin-bottom: 1.4rem;
+    }
+    .miModal .miModal__tituloB{
+        font-size: 1.6rem;
+        margin-top: 0rem;
+        margin-bottom: 3rem; 
+    }
+    .miModal__p p, .miModal2__p p {
+        font-size: 1.1rem;
+        display: block;
+    }
+    /* .miModal2__p p {
+        font-size: 1.1rem;
+        display: block;
+    } */
 }
 @media (min-width:577px) and (max-width: 767px){
-    
+    .miModal .miModal__tituloA{
+        font-size: 1.7rem;
+        margin-top: 3rem;
+        margin-bottom: 1.3rem;
+    }
+    .miModal .miModal__tituloB{
+        font-size: 1.7rem;
+        margin-top: 0rem;
+        margin-bottom: 3.3rem; 
+    }
 }
 @media (min-width:768px) and (max-width: 991px){
-    
+    .seccion3__emprendedores {
+        padding-left: 2rem;
+        padding-right: 1.3rem;
+        margin-bottom: 2rem;
+        height: 10.5rem;
+        & p {
+            font-size: 1rem;
+        }
+    }
+    .seccion3__profesionales {
+        padding-left: 2rem;
+        padding-right: 1.3rem;
+        margin-bottom: 2rem;
+        height: 10.5rem;
+        & p {
+            font-size: 1rem;
+        }
+    }
+    .seccion3__pie--texto1 {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .seccion3__boxTextoBtn {
+        padding-left: 2rem;
+    }
+    .seccion3__boxTextoBtn2 {
+        padding-left: 2rem;
+    }
 }
 @media (min-width:992px) and (max-width: 1199px){
-    
+    .seccion3__emprendedores {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-bottom: 2rem;
+        height: 9.3rem;
+        & p {
+            font-size: 1.05rem;
+        }
+    }
+    .seccion3__profesionales {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-bottom: 2rem;
+        height: 9.3rem;
+        & p {
+            font-size: 1.05rem;
+        }
+    }
+    .seccion3__boxTextoBtn {
+        padding-left: 2rem;
+    }
+    .seccion3__boxTextoBtn2 {
+        padding-left: 2rem;
+    }
+    .btnInfo {
+        margin-left: 2rem;
+    } 
 }

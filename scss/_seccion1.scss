@@ -31,15 +31,130 @@ $amarilloMarca:#ffbd4a; */
 }
 .seccion1__titulo {
     font-family: 'Open Sans', sans-serif;
-    /* font-family: 'Work Sans', sans-serif; */
     font-size: 2.5rem;
     font-weight: 400;
     margin-top: 1rem;
     line-height: 3.8rem;
     &  span {
+        font-size: 2.5rem;
         font-weight: 700;
     }
 } 
+
+.seccion1__titulo2 {
+    width: 27%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 2rem 0rem 0rem 4rem;
+    line-height: 3.8rem;
+    &  span {
+        font-size: 2.8rem;
+        font-weight: 700;
+    }
+} 
+.seccion1__titulo3 {
+    width: 27%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 2rem 0rem 0rem 4rem;
+    line-height: 3.8rem;
+    &  span {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-decoration:underline;
+        /* text-decoration-style:dashed; */
+        text-decoration-style:double;
+        text-decoration-thickness: 2px;
+        text-decoration-color: $amarilloMarca;
+    }
+} 
+.seccion1__titulo3_1 {
+    width: 27%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 2rem 0rem 0rem 4rem;
+    line-height: 3.8rem;
+    &  span {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-decoration:underline;
+        text-decoration-style:dashed;
+        text-decoration-thickness: 2px;
+    }
+} 
+.seccion1__titulo3_2 {
+    width: 27%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 2rem 0rem 0rem 4rem;
+    line-height: 3.8rem;  
+    &  span {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-decoration:underline;
+        text-decoration-style:dotted;
+        text-decoration-thickness: 2px;
+        
+    }
+} 
+.seccion1__titulo4 {
+    width: 27%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 2rem 0rem 0rem 4rem;
+    line-height: 3.8rem;
+    &  span {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-shadow: 2px 2px 0px $amarilloMarca;
+    }
+} 
+/* .seccion1__titulo4 {
+    width: 27%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 2rem 0rem 0rem 4rem;
+    line-height: 3.8rem;
+    &  span {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-shadow: 2px 2px 0px $amarilloMarca;
+    }
+}  */
+.seccion1__titulo5 {
+    width: 27%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 2rem 0rem 0rem 4rem;
+    line-height: 3.8rem;
+    &  span {
+        font-size: 2.5rem;
+        font-weight: 700;
+        background-color:  $amarilloMarca;
+        line-height: 2.6rem !important;
+    }
+}
+.seccion1__titulo6 {
+    width: 27%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    line-height: 3.8rem;
+    &  span {
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-variant: small-caps;
+    }
+} 
+
 .recuadroEmprendedores {
     border-radius: 0.7rem;
     background-color: $grisFondo;
@@ -161,7 +276,7 @@ $amarilloMarca:#ffbd4a; */
         line-height: 3rem;
     } 
     .titledetail{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin-top: 0.2rem;
         margin-left: 0.8rem;
     }
@@ -169,8 +284,8 @@ $amarilloMarca:#ffbd4a; */
         width: 11rem;
         margin-top: 1rem;
         margin-left: 0.8rem;
-        /* margin-right: 5rem; */
-        display: block;
+        margin-right: 0rem;
+    
     }
     .seccion1__imgProfesionales {
         width: 11rem;

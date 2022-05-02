@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300...800&family=Work+Sans:wght@300...800&family=Montserrat:wght@300...500&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/destino.css">
     <title>EDA Mentoring</title>
 </head>
@@ -31,7 +32,7 @@
                     </div>
                 </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <main class="conatiner-fluid m-0 g-0">
         <section class="seccion1">
@@ -40,12 +41,12 @@
                     <div class="titledetail">
                         <p class="explorar">EXPLORAR <SPAN>+</SPAN></p><P class="disign">DISEÑAR <SPAN>+</SPAN></P><P class="accion">ACCIONAR</P>
                     </div>
-                    <h2 class="seccion1__titulo">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
+                    <h2 class="seccion1__titulo ">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
                     <img src="images/eda_emprendedores.png" alt="ir a seccion emprendedores" class="seccion1__imgEmprendedores">
                     <img src="images/eda_profesionales.png" alt="ir a sección profesionesles" class="seccion1__imgProfesionales">
-                    <a href="https://wa.me/+5491166141508" role="button" target="blank">
+                    <!--  <a href="https://wa.me/+5491166141508" role="button" target="blank">
                         <img src="images/whatsapp(1).png" alt="abrir whatsapp"class="btnWapp" >  
-                    </a>                        
+                    </a>  -->                       
                 </div>
                 <div class="col-12 col-md-8 seccion1__boxImg">
                     <img src="images/Tiny creative people sharing ideas with abstract person.jpg" alt="" class="seccion1__img img-fluid">
@@ -61,21 +62,25 @@
         </section>
         <section class="seccion2">
             <p>
-                Mi propuesta es acompañarte a desplegar tu <span>creatividad</span>, conectar con tus <span>intereses, recursos y talentos</span>, modificar <span>creencias y comportamientos limitantes</span>  para lograr expandir tus  <span>posibilidades</span> .
+                Mi propuesta es acompañarte para que logres desplegar tu  <span>creatividad</span>, conectar con tus <span>intereses, recursos y talentos</span>, modificar <span>creencias y comportamientos limitantes</span>  para lograr expandir tus  <span>posibilidades</span>.
             </p>
         </section>
         <section class="seccion3 row g-0">
             <div class="text-center">
-                <h3 class="seccion3__titulo">TE INVITO A CONOCER LA PROPUESTA QUE MÁS SE ADAPTE A VOS:</h3>
+               <!--  <h3 class="seccion3__titulo">TE INVITO A CONOCER LA PROPUESTA QUE MÁS SE ADAPTE A VOS:</h3> -->
+                <h3 class="seccion3__titulo">Te invito a conocer la propuesta que mas se adapte a vos:</h3>
             </div>
             <article id="article1" class="col-md-6">
-                <div class="secction3__emprendedores">
+                <div class="seccion3__emprendedores">
                     <img src="images/eda_emprendedores.png" alt="logo emprendedores" class="logoEmpProfSec3">
-                    <p class="mt-4">Orientada a emprendedores y freelancers que quieran impulsar sus ideas y proyectos.</p>
+                    <p class="mt-4">Orientada a emprendedores/as y freelancers que quieran impulsar sus ideas y proyectos.</p>
                 </div>
                 <div class="seccion3__boxTextoBtn">
-                    <h4>Diseño del Emprendimiento: De la Idea al Modelo de Negocio</h4>
-                    <a class="" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <!-- <h4>Diseño del Emprendimiento: De la Idea al Modelo de Negocio</h4> -->
+                    <div class="boxTextoBtn__texto">
+                        <p class="linea__p1">Diseño del Emprendimiento:</p> <p class="linea__p2">De la Idea al Modelo de Negocio</p>
+                    </div>
+                    <a class="dropdownEmp-Prof" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <img src="images/down-chevron.jpg" alt="ver más información">
                     </a>
                 </div>
@@ -87,49 +92,57 @@
                         <p>+ Tenés una idea, una que le ves potencial, y no sabés como convertirla en emprendimiento.</p>
                     </div>
                 </div>
-                <a href="#Info Emprendedores" class="btnInfo" data-bs-toggle="modal" data-bs-target="#exampleModal1">+ INFO</a>
-                
+                <a href="#Info Emprendedores" class="btnInfo" data-bs-toggle="modal" data-bs-target="#exampleModal1">+ INFO</a>                
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog dialog-scrollable modal-fullscreen">
                         <div class="modal-content">
                             <div class="modal-body miModal">
-                                <img src="images/eda_emprendedores.png" alt="logo eda emprendedores" class="logoEmpProfSec3">
-                                <p class="miModal__titulo">Diseño del Emprendimiento:<span> De la Idea al Modelo de Negocio</span>
-                                </p>
+                                <img src="images/eda_emprendedores.png" alt="logo eda emprendedores" class="logoEmpProfSec3 logoModal">
+                                <!-- <p class="miModal__titulo">Diseño del Emprendimiento:<span> De la Idea al Modelo de Negocio</span></p> -->
+                                <p class="miModal__tituloA">Diseño del Emprendimiento:</p><p class="miModal__tituloB"> De la Idea al Modelo de Negocio</p>
                                 <div class="miModal__p">
                                     <p>+ Conectar con tu <span>propósito Emprendedor</span>.</p>
                                     <p>+ Identificar la <span>idea de negocio y validarla</span>.</p>
                                     <p>+ Transformar una <span>idea en Proyecto</span>. </p>
                                     <p>+ Descubrir quién es <span>tu cliente</span> y cuál es su <span>necesidad</span>.</p>
+                                    <p>+ Armar tu  <span>Propuesta de Valor.</span></p>
+                                    <p>+ Diseñar tu <span>Modelo de Negocio.</span></p>
+                                    <p>+ Construir un Prototipo de tu Producto/Servicio: <span>Producto Mínimo Viable.</span></p>
+                                    <p>+ Planificar <span>objetivos y métricas</span>  para poner en marcha tu plan.</p>
                                 </div>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary btn-lg btncloseModal" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-secondary btncloseModal" data-bs-dismiss="modal">Cerrar</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
             <article id="article2" class="col-md-6">
-                <div class="secction3__emprendedores">
+                <div class="seccion3__profesionales">
                     <img src="images/eda_profesionales.png" alt="logo eda profesionales" class="logoEmpProfSec3">
-                    
                     <p class="mt-4">Orientada a profesionales que quieran descubrir oportunidades formativas y de carrera que se
                         adapten a sus intereses y objetivos.</p>
                 </div>
                 <div class="seccion3__boxTextoBtn2">
-                    <h4>Diseño de Perfil Profesional: Hacia una versión 2.0</h4>
+                    <!-- <h4>Diseño de Perfil Profesional: Hacia una versión 2.0</h4>
                     <a class="" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <img src="images/down-chevron.jpg" alt="ver más información">
+                    </a> -->
+                    <div class="boxTextoBtn2__texto">
+                        <p class="linea__p1">Diseño del Perfil Profesional:</p> <p class="linea__p2">Hacia una version 2,0</p>
+                    </div>
+                    <a class="dropdownEmp-Prof" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img src="images/down-chevron.jpg" alt="ver más información">
                     </a>
-                </div>
+                </div>                
                 <div class="collapse" id="collapseExample2">
                     <div class="card card-body">
-                        <p class="subtituloRemodelar">#REMODELAR</p>
+                        <p class="subtituloRemodelar">#Remodelar</p>
                         <p>+ Estás en un trabajo que ya no te hace sentir motivado/a ni realizado/a.</p>
-                        <p class="subtituloReinventar mt-2">#REINVENTAR</p>
-                        <p>+ Querés trabajar de lo que te gusta, pero no conocés tus intereses, fortalezas y recursos</p>
+                        <p class="subtituloReinventar mt-2">#Reinventar</p>
+                        <p>+ Querés trabajar de lo que te gusta, pero no conocés tus intereses, fortalezas y recursos.</p>
                     </div>
                 </div>
                 <a href="#Info Emprendedores" class="btnInfo" data-bs-toggle="modal" data-bs-target="#exampleModal2"> + INFO</a>
@@ -137,8 +150,9 @@
                     <div class="modal-dialog dialog-scrollable modal-fullscreen">
                         <div class="modal-content">
                             <div class="modal-body miModal">
-                                <img src="images/eda_profesionales.png" alt="logo eda profesionales" class="logoEmpProfSec3" >
-                                <p class="miModal__titulo">Diseño del Emprendimiento:<span> De la Idea al Modelo de Negocio</span></p>
+                                <img src="images/eda_profesionales.png" alt="logo eda profesionales" class="logoEmpProfSec3 logoModal" >
+                                <!-- <p class="miModal__titulo">Diseño del Emprendimiento:<span> De la Idea al Modelo de Negocio</span></p> -->
+                                <p class="miModal__tituloA">Diseño del Emprendimiento:</p><p class="miModal__tituloB"> De la Idea al Modelo de Negocio</p>
                                 <div class="miModal2__p">
                                     <p>+ Mapear tus <span>impulsores, necesidades, habilidades, talentos e intereses.</span></p>
                                     <p>+ Vitalizar tus <span>fortalezas profesionales.</span> </p>
@@ -146,8 +160,7 @@
                                     <p>+ <span>Explorar</span>  oportunidades en el mercado.</p>
                                     <p>+ Crear tu <span>Propuesta de valor Profesional.</span></p>
                                     <p>+ Diseñar <span>Prototipos</span>  de tu Objetivo Profesional.</p>
-                                    <p>+ Delinear <span>objetivos y métricas</span>  para poner en marcha tu plan.
-                                    </p>
+                                    <p>+ Delinear <span>objetivos y métricas</span>  para poner en marcha tu plan.</p>
                                 </div>
                             </div>
                             <div class="modal-footer">
@@ -157,10 +170,11 @@
                     </div>
                 </div>
             </article>
-            <p class="seccion3__pie--texto1"><span class="seccion3__pie--texto2">S</span>I TENÉS DUDAS, COORDINEMOS <span
+            <!-- <p class="seccion3__pie--texto1"><span class="seccion3__pie--texto2">S</span>I TENÉS DUDAS, COORDINEMOS <span
                 class="seccion3__pie--texto3"> <span class="seccion3__pie--texto4">S</span>ESIÓN DE EXPLORACION GRATUITA DE
                 30 MINUTOS</span> PARA CONOCERNOS, Y DESCUBRIR CUÁL ES LA PROPUESTA QUE MÁS SE AJUSTA A TUS NECESIDADES.
-            </p>
+            </p> -->
+            <p class="seccion3__pie--texto1">“Coordinemos una <span class="seccion3__pie--texto2">sesión gratuita de 30 minutos</span> para descubrir la mejor propuesta para vos”.  </p>
         </section>
     </main>
     <footer class="container-fluid">
@@ -199,7 +213,22 @@
             <p class="tituloProfesionales">PROFESIONALES</p>
         </div>
     </div> -->
-
+    <section>  <!-- PRUEBAS -->
+        <h2 class="seccion1__titulo2">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
+        <p> fuente más grande</p>
+        <h2 class="seccion1__titulo3">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
+        <p> fuente subrayado doble de color. En este caso y en los siguientes, el subrayado puede ser mas delgado a más grueso</p>
+        <h2 class="seccion1__titulo3_1">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
+        <p> fuente subrayada con segmentos</p>
+        <h2 class="seccion1__titulo3_2">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
+        <p> fuente subrayada con puntos</p>
+        <h2 class="seccion1__titulo4">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
+        <p> fuente con sombra amarillo marca, puede ser menos marcada o más marcada</p>
+        <h2 class="seccion1__titulo5">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
+        <p> color de fondo, no se puede achicar la altura del fondo amarillo</p>
+        <h2 class="seccion1__titulo6">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
+        <p> font-variant small-caps</p>
+    </section>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 <script src="main.js"></script>
