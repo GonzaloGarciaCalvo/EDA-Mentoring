@@ -210,7 +210,7 @@ body {
   .seccion1__titulo4 span {
     font-size: 2.5rem;
     font-weight: 700;
-    text-shadow: 2px 2px 0px #ffbd4a; }
+    text-shadow: 1px 1px 0px #ffbd4a, -1px 1px 0px #ffbd4a, 1px -1px 0px #ffbd4a, -1px -1px 0px #ffbd4a; }
 
 /* .seccion1__titulo4 {
     width: 27%;
@@ -248,7 +248,8 @@ body {
   .seccion1__titulo6 span {
     font-size: 2.5rem;
     font-weight: 700;
-    text-shadow: 3px -1px 0px #ff5c5c, 6px -2px 0px #ffbd4a, 9px -3px 0px #a8a8a8; }
+    /* text-shadow:3px -1px 0px $rojoMarca,6px -2px 0px $amarilloMarca, 9px -3px 0px $gris1Marca; */
+    text-shadow: 6px -2px 0px #a8a8a8; }
 
 .seccion1__titulo7 {
   width: 27%;
@@ -260,7 +261,8 @@ body {
   .seccion1__titulo7 span {
     font-size: 2.5rem;
     font-weight: 700;
-    background: linear-gradient(to bottom, black 55%, #ffbd4a 80%);
+    /* background: linear-gradient(to bottom, black 55%, $amarilloMarca 80%); */
+    background: linear-gradient(to bottom, black 50%, #ffbd4a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -289,7 +291,8 @@ body {
 .gradientText {
   font-size: 2.5rem;
   /* background: linear-gradient(to bottom right, black, grey); */
-  background: linear-gradient(to bottom, black 65%, #ffbd4a 100%);
+  /* background: linear-gradient(to bottom, black 65%, $amarilloMarca 100%); */
+  background: linear-gradient(to right, black 20%, #ffbd4a 80%, black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
