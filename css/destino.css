@@ -248,7 +248,54 @@ body {
   .seccion1__titulo6 span {
     font-size: 2.5rem;
     font-weight: 700;
-    font-variant: small-caps; }
+    text-shadow: 3px -1px 0px #ff5c5c, 6px -2px 0px #ffbd4a, 9px -3px 0px #a8a8a8; }
+
+.seccion1__titulo7 {
+  width: 27%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  line-height: 3.8rem; }
+  .seccion1__titulo7 span {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(to bottom, black 55%, #ffbd4a 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent; }
+
+.titleBox {
+  width: 27%;
+  margin-left: 3rem; }
+
+.firstPartTitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  line-height: 3.8rem;
+  display: inline; }
+
+.secondPartTitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  line-height: 3.8rem;
+  display: inline; }
+
+.gradientText {
+  font-size: 2.5rem;
+  /* background: linear-gradient(to bottom right, black, grey); */
+  background: linear-gradient(to bottom, black 65%, #ffbd4a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  /* text-shadow: gray 2px 2px 0; */ }
 
 .recuadroEmprendedores {
   border-radius: 0.7rem;
