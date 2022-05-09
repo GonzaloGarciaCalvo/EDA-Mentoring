@@ -143,7 +143,8 @@ body {
   line-height: 3.8rem; }
   .seccion1__titulo span {
     font-size: 2.5rem;
-    font-weight: 700; }
+    font-weight: 700;
+    background-color: #ffbd4a; }
 
 .seccion1__titulo2 {
   width: 27%;
@@ -551,7 +552,7 @@ body {
   /* padding-left: 2rem; */ }
 
 .seccion3__titulo {
-  background-color: #ffbd4a;
+  /* background-color:$amarilloMarca; */
   max-width: 56rem;
   display: inline-block;
   text-align: center;
@@ -686,7 +687,7 @@ body {
   margin-bottom: 2rem;
   margin-left: 4rem;
   padding: 0.15rem 0.5rem 0.15rem 0.3rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: inline-block;
   width: 6rem; }
 
@@ -714,6 +715,7 @@ a.btnInfo {
 
 .miModal .miModal__tituloA {
   margin-top: 3rem;
+  margin-right: 0.5rem;
   /* margin-bottom: 4.5rem; */
   font-size: 2rem;
   font-weight: 800;
