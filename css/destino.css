@@ -426,7 +426,7 @@ body {
     margin-top: 0rem;
     line-height: 3rem; }
   .titledetail {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-top: 0.2rem;
     margin-left: 0.8rem; }
   .seccion1__imgEmprendedores {
@@ -859,7 +859,7 @@ a.btnInfo {
     margin-top: 0rem;
     margin-bottom: 3rem; }
   .miModal__p p, .miModal2__p p {
-    font-size: 0.95rem;
+    font-size: 0.55rem;
     display: block; }
   /* .miModal2__p p {
         font-size: 1.1rem;
