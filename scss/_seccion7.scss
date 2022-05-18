@@ -1,0 +1,31 @@
+.seccion7{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20vh 60vh;
+    justify-content: center;
+    background-color: #ffbd4a;
+    position: relative;
+    margin-top: 20px;
+
+    h2{
+        font-family: $WorkSans;
+        margin-top: 15vh;
+    }
+    .texto{
+        position: absolute;
+        height: 45vh;
+        width: 80vw;
+        margin-top: 35vh;
+        margin-left: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-family: $OpenSans;
+            line-height: 70px;
+            text-align: center;
+            font-size: 20px;
+            padding: 0 15px 0 15px;
+        }
+    }
+}

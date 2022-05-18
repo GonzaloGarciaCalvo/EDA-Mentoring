@@ -36,24 +36,17 @@
 .logoEmpProfSec3 {
     width: 12rem;
 }
+.seccion3__boxAuxiliar {
+    height: 3.2rem;
+}
 .seccion3__boxTextoBtn {
     display: flex;
     flex-direction: row;
     padding-left: 4rem;
-    /* & h4 {
-        padding-right: 0.1rem;
-        padding-left: 0.1rem;
-        margin-top: 2rem;
-        font-size: 1.06rem;
-        line-height: 1.4rem;
-        color: white;
-        background-color: $grisFondo;
-        font-weight: 600;
-        
-    } */
     & img {
         /* margin-top: 2rem; */
-        width: 1.5rem;
+        width: 1.9rem;
+        height: 1.9rem;
         margin-left: 1rem;
         opacity: 0.68;
         /* transform: translateY(1px); */
@@ -66,53 +59,55 @@
     color: white;
     font-size: 1.06rem;
     margin-left: 0rem;
-    // margin-top: 2rem; 
-    // width: 50%; 
+    min-height: 1.9rem;
+    max-width: 90%;
 }
 .boxTextoBtn2__texto {
     background-color: $gris2Marca;
     font-size: 1.06rem;
     margin-left: 0rem;
-    // margin-top: 2rem; 
-    // width: 50%; 
+    min-height: 1.9rem;
+    margin-right: 0.5rem;
 }
 .linea__p1{
     display: inline-block;
-    line-height: 1.15rem !important;
+    /* line-height: 1.15rem; */
     margin-bottom: 0rem;
     margin-top: 0rem;
+    margin-right: 0.3rem;
 }
 .linea__p2 {
     display: inline-block;
-    line-height: 1.15rem;
+    /* line-height: 1.15rem; */
     margin-bottom: 0rem;
+    
 }
+
 .dropdownEmp-Prof {
-    height: auto;
+    width: 1.9rem;
+    /* height: auto; */
     margin-top: auto;
     margin-bottom: auto;
+    /* & img {
+        margin-left: 0.5rem;
+        width: 1.9rem;
+        height: 1.9rem;
+    } */
 } 
 
 .seccion3__boxTextoBtn2 {
     display: flex;
     flex-direction: row;
     padding-left: 4rem;
-    /* & h4 {
-        padding-right: 0.1rem;
-        padding-left: 0.1rem;
-        // margin-top: 2rem;
-        // margin-bottom: 0.1rem;
-        font-size: 1.15rem;
-        background-color: $gris2Marca;
-        font-weight: 600;
-    } */
+    padding-right: 0.5rem;
     & img {
         margin-top: 0rem;
-        width: 1.5rem;
-        margin-left: 1rem;
-        margin-right: 1.5rem; //nuevo
+        width: 1.9rem;
+        height: 1.9rem;
+        margin-left: 0.5rem;
+        margin-right: 1rem; //nuevo
         opacity: 0.45;
-        transform: translateY(-3px);
+        /* transform: translateY(-3px); */
     }
 }
 .subtituloCrear, .subtituloAterrizar {
@@ -131,29 +126,19 @@
 }
 .seccion3__pie--texto1 {
     font-size: 1rem;
-    /* padding-left: 17rem;
-    padding-right: 17rem; */
+
     text-align: center;
     margin-top: 2.5rem;
 }
 .seccion3__pie--texto2 {
     font-weight: 700;
 }
-/* .seccion3__pie--texto2 {
-    font-size: 1.2rem;
-}
-.seccion3__pie--texto3 {
-    font-weight: 700;
-}
-.seccion3__pie--texto4 {
-    font-size: 1.2rem;
-} */
+
 .btnInfo {
-    margin-top: 1.5rem;
+    margin-top: 0rem;
     margin-bottom: 2rem;
     margin-left: 4rem;
     padding: 0.15rem 0.5rem 0.15rem 0.3rem;
-    /* border: 1px solid black; */
     display: inline-block;
     width: 6rem;
 } 
@@ -164,40 +149,26 @@ a.btnInfo {
         color: black !important;
     }
 } 
-/* .miModal {
-    display: flex;
-    flex-direction: column;
-} */
-/* .miModal .miModal__titulo{
-    margin-top: 3rem;
-    margin-bottom: 4.5rem;
-    font-size: 2rem;
-    font-weight: 800;
-    & span {
-        font-weight: 500;
-    }
-} */
+
 .logoModal {
     display: block;
 }
 .miModal .miModal__tituloA {
     margin-top: 3rem;
     margin-right: 0.5rem;
-    /* margin-bottom: 4.5rem; */
     font-size: 2rem;
     font-weight: 800;
     display: inline-block;
 }
 .miModal .miModal__tituloB{
-    /* margin-top: 3rem; */
-    
     margin-bottom: 3rem;
     font-size: 2rem;
     font-weight: 500;
     display: inline-block;
 }
-
-// el display table ajusta el background-color al contenido
+/*
+* el display table ajusta el background-color al contenido
+*/
 .miModal__p p{
     font-size: 1.2rem;
     color: white;
@@ -231,11 +202,9 @@ a.btnInfo {
     padding-right: 3rem;
     border: none;
 }
-
-/* .miModal__p span {
-    font-weight: 600;
-} */
-
+.cardElement {
+    height: 6rem;
+}
 
 @media (max-width:576px){
     .seccion3 {
@@ -400,8 +369,16 @@ a.btnInfo {
     }
     .seccion3__boxTextoBtn {
         padding-left: 2rem;
+        width: 90%;
     }
     .seccion3__boxTextoBtn2 {
+        padding-left: 2rem;
+        width: 90%;
+    }
+    .btnInfo {
+        margin-left: 2rem;
+    } 
+    .card.card-body {
         padding-left: 2rem;
     }
 }
@@ -426,11 +403,16 @@ a.btnInfo {
     }
     .seccion3__boxTextoBtn {
         padding-left: 2rem;
+        width: 95%;
     }
     .seccion3__boxTextoBtn2 {
         padding-left: 2rem;
+        width: 95%;
     }
     .btnInfo {
         margin-left: 2rem;
     } 
+    .card.card-body {
+        padding-left: 2rem;
+    }
 }

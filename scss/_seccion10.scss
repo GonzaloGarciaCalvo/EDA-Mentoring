@@ -1,0 +1,44 @@
+.seccion10{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 70vh 15vh 15vh;
+    justify-content: center;
+    .imagen{
+        display: flex;
+        justify-content: center;
+        align-content: end;
+        align-items: flex-end;
+        margin-bottom: 1.5rem;
+        img{
+            height: 50vh;
+            width: auto;
+        }
+    }
+    .texto{
+        display: block;
+        justify-content: center;
+
+        p{
+            text-align: center;
+            margin-bottom: unset;
+            font-size: 1.125rem;
+            font-family: $OpenSans;
+        }
+    }
+    .redes{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        a{
+          height: 30px;
+          width: 30px;
+          margin: 0 15px;
+
+            img{
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }    
+}

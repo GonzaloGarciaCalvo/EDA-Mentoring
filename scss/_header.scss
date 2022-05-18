@@ -1,19 +1,12 @@
-*{
-    margin:0;
-    padding: 0;
-}
+@import "generales";
 header {
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Work Sans', sans-serif;
 }
 .logoNavbar {
-    width: 7.2rem;
+    width: 7rem;
     margin-bottom: 0rem;
     margin-left: 3rem;
 }
-/* .tituloPrincipal {
-    font-family:Verdana, Geneva, Tahoma, sans-serif  ;
-} */
 
 #navbarNavAltMarkup {
     margin-bottom: 1.8rem;
@@ -31,26 +24,21 @@ header {
     justify-content: end;
     margin-right: 2rem;
 }
-/* .nav-link p,span{ */
 .nav-link p,  .nav-link span{   
-    /* border-bottom: 2px solid #ffbd4a; */
-    /* transform: translateY(-2px); */
     display: inline;
     line-height: 1;
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-thickness: 1px;
     text-underline-position: auto;
-    text-decoration-color: #ffbd4a !important;
+    text-decoration-color: $amarilloMarca;
     text-underline-offset: 3px;
 }
-
 .bigText {
     font-size: 0.95rem;
     color: black;
     padding-bottom: 0;
     margin-bottom: 0;
-
 }
 .normalText {
     font-size: 0.8rem;
@@ -59,25 +47,33 @@ header {
     color: black;
     display: inline-block;
 }
-
-
-/* @media (min-width:992px) and (max-width: 1200px){
+@media (min-width:992px) and (max-width: 1200px){
     .navbar-nav {
         margin-right: 1rem;
     }
     .bigText {
         font-size: 0.9rem;
-        padding-bottom: 0;
-        margin-bottom: 0;
     }
     .normalText {
         font-size: 0.75rem;
-        padding-bottom: 0;
-        margin-bottom: 0;
-        display: inline-block;
     }
     
-} */
+}
+@media (min-width:992px) and (max-width: 1199px){
+    .logoNavbar {
+        width: 6.8rem;
+    }
+}
+@media (min-width:768px) and (max-width: 991px){
+    .logoNavbar {
+        width: 6.5rem;
+    }
+}
+@media (min-width:577px) and (max-width: 767px){
+    .logoNavbar {
+        width: 5.8rem;
+    }
+}
 @media (max-width:576px) {
     .logoNavbar {
         width: 5rem;

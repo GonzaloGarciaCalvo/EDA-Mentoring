@@ -1,8 +1,5 @@
-/* $rojoMarca: #ff5c5c;
-$gris1Marca:#a8a8a8;
-$gris2Marca: #a6a6a6;
-$amarilloMarca:#ffbd4a; */
 @import "generales";
+
 .titledetail{
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
@@ -33,8 +30,9 @@ $amarilloMarca:#ffbd4a; */
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5rem;
     font-weight: 400;
-    margin-top: 1rem;
     line-height: 3.8rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     &  span {
         font-size: 2.5rem;
         font-weight: 700;
@@ -42,138 +40,6 @@ $amarilloMarca:#ffbd4a; */
     }
 } 
 
-.seccion1__titulo2 {
-    width: 27%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin: 2rem 0rem 0rem 4rem;
-    line-height: 3.8rem;
-    &  span {
-        font-size: 2.8rem;
-        font-weight: 700;
-    }
-} 
-.seccion1__titulo3 {
-    width: 27%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin: 2rem 0rem 0rem 4rem;
-    line-height: 3.8rem;
-    &  span {
-        font-size: 2.5rem;
-        font-weight: 700;
-        text-decoration:underline;
-        /* text-decoration-style:dashed; */
-        text-decoration-style:double;
-        text-decoration-thickness: 2px;
-        text-decoration-color: $amarilloMarca;
-    }
-} 
-.seccion1__titulo3_1 {
-    width: 27%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin: 2rem 0rem 0rem 4rem;
-    line-height: 3.8rem;
-    &  span {
-        font-size: 2.5rem;
-        font-weight: 700;
-        text-decoration:underline;
-        text-decoration-style:dashed;
-        text-decoration-thickness: 2px;
-    }
-} 
-.seccion1__titulo3_2 {
-    width: 27%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin: 2rem 0rem 0rem 4rem;
-    line-height: 3.8rem;  
-    &  span {
-        font-size: 2.5rem;
-        font-weight: 700;
-        text-decoration:underline;
-        text-decoration-style:dotted;
-        text-decoration-thickness: 2px;
-        
-    }
-} 
-.seccion1__titulo4 {
-    width: 27%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin: 2rem 0rem 0rem 4rem;
-    line-height: 3.8rem;
-    &  span {
-        font-size: 2.5rem;
-        font-weight: 700;
-        text-shadow: 1px 1px 0px $amarilloMarca, -1px 1px 0px $amarilloMarca, 1px -1px 0px $amarilloMarca, -1px -1px 0px $amarilloMarca ;
-    }
-} 
-/* .seccion1__titulo4 {
-    width: 27%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin: 2rem 0rem 0rem 4rem;
-    line-height: 3.8rem;
-    &  span {
-        font-size: 2.5rem;
-        font-weight: 700;
-        text-shadow: 2px 2px 0px $amarilloMarca;
-    }
-}  */
-.seccion1__titulo5 {
-    width: 27%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin: 2rem 0rem 0rem 4rem;
-    line-height: 3.8rem;
-    &  span {
-        font-size: 2.5rem;
-        font-weight: 700;
-        background-color:  $amarilloMarca;
-        line-height: 2.6rem !important;
-    }
-}
-.seccion1__titulo6 {
-    width: 27%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin-top: 1rem;
-    line-height: 3.8rem;
-    &  span {
-        font-size: 2.5rem;
-        font-weight: 700;
-        /* text-shadow:3px -1px 0px $rojoMarca,6px -2px 0px $amarilloMarca, 9px -3px 0px $gris1Marca; */
-        text-shadow:/* 3px -1px 0px $gris1Marca, */6px -2px 0px $gris1Marca/* , 9px -3px 0px $gris1Marca */;
-    }
-} 
-.seccion1__titulo7 {
-    width: 27%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin-top: 1rem;
-    line-height: 3.8rem;
-    &  span {
-        font-size: 2.5rem;
-        font-weight: 700;
-        /* background: linear-gradient(to bottom, black 55%, $amarilloMarca 80%); */
-        background: linear-gradient(to bottom, black 50%, $amarilloMarca );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; 
-	    background-clip: text;
-	    color: transparent;
-    }
-} 
 .titleBox {
     width: 27%;
     margin-left: 3rem;
@@ -194,81 +60,15 @@ $amarilloMarca:#ffbd4a; */
     line-height: 3.8rem;
     display: inline;
 }
-.gradientText {
+/* .gradientText {
 	font-size: 2.5rem;
-	/* background: linear-gradient(to bottom right, black, grey); */
-	/* background: linear-gradient(to bottom, black 65%, $amarilloMarca 100%); */
     background: linear-gradient(to right, black 20%, $amarilloMarca 80%, black);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; 
 	background-clip: text;
 	color: transparent;
 	font-weight: 600;
-	/* text-shadow: gray 2px 2px 0; */
-}
-
-.recuadroEmprendedores {
-    border-radius: 0.7rem;
-    background-color: $grisFondo;
-    width: 14rem;
-    padding: 0.3rem 0.4rem 0.3rem 0.5rem;
-    /* transform: translateX(3rem); */
-}
-.recuadroProfesionales {
-    border-radius: 0.7rem;
-    background-color: rgb(205, 203, 203);
-    width: 14rem;
-    padding: 0.3rem 0.4rem 0.3rem 0.5rem;
-    /* transform: translateX(3rem); */
-}
-
-/***** Logo emprendedores y profesionales *****/
-@mixin circuloLogo {
-    border-radius: 50%;
-    width: 1.8rem;
-    height: 1.8rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-}
-.circuloE {
-    @include circuloLogo;
-    background-color: $rojoMarca;
-}
-.circuloD {
-    @include circuloLogo; 
-    background-color: $amarilloMarca;
-    margin-left: 0.15rem;
-    margin-right: 0.15rem
-}
-.circuloA {
-    @include circuloLogo;
-    background-color: $gris1Marca;
-}
-.textoCirculo {
-    font-size: 1.1rem;
-    line-height:2.1rem;
-    margin-bottom:0 ;
-    margin-top: 0;
-    transform: translate(0px, -1px);
-}
-.tituloEmprendedores {
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
-    color: white;
-    padding-top: 1/16rem;
-    margin-bottom: 0;
-}
-.tituloProfesionales {
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
-    padding-top: 0.1rem;
-    margin-bottom: 0;
-}
-/* FIN Logo*/
+} */
 
 .seccion1__imgEmprendedores {
     width: 12rem;
@@ -280,44 +80,20 @@ $amarilloMarca:#ffbd4a; */
     margin-top: 1rem;
 }
 .seccion1__boxImg {
-    /* position: relative; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
-/* .seccion1__img {
-    max-width: 100%;
-    height: auto;
-    //min-width: 32rem;
-    
-} */
-/* .seccion1__boxLista {
-    background-color: #a8a8a8;
-    opacity: 0.65;
-    width: 17rem;
-    padding: 0.3rem 1rem 0.3rem 0.5rem;
-    z-index: 1;
-    position: absolute; right: 1.7rem; bottom: 1.5rem;
-} */
-/* .seccion1__lista {
-    text-decoration: dotted;
-    margin-bottom: 0;
-    padding-left: 1rem;
-}
-.seccion1__lista li {
-    font-size: 0.9rem;
-    padding-left: 0.5rem;
-    font-weight: 600;
-    color: black;
-} */
+
 .btnWapp {
     margin-top: 2.5rem;
     margin-left: 3rem;
     display: block;
     width: 4rem;
 }   
-
 
 @media (max-width:577px){
     .seccion1__titulo {
@@ -364,7 +140,6 @@ $amarilloMarca:#ffbd4a; */
     }
     .seccion1__titulo {
         font-family: 'Open Sans', sans-serif;
-        /* font-family: 'Work Sans', sans-serif; */
         font-size: 2.2rem;
         margin-top: 0.5rem;
         line-height: 3.3rem;
@@ -374,46 +149,61 @@ $amarilloMarca:#ffbd4a; */
         text-align: center;
     } 
     .seccion1__boxImg {
-       /*  position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem; */
         padding-left: 0;
         padding-right: 0;
     }
     .seccion1__img {
         width: 90%;
     }
-    /* .seccion1__boxLista {
-        position: static;
-        display: flex;
-    } */
     .seccion1__imgEmprendedores {
         width: 12rem;
         margin-top: 1rem;
         margin-left: 0;
         margin-right: 0;
-        /* margin-left: 15%;
-        margin-right: auto;
-        display: inline-block; */
-        
     }
     .seccion1__imgProfesionales {
         width: 12rem;
         margin-top: 1rem;
         margin-left: 0;
-        margin-right: 0;
-        
-        
+        margin-right: 0; 
     }
 }
 
 @media (min-width:768px) and (max-width: 991px){
-   
+    .titledetail {
+        font-size: 0.75rem;
+    }
+    .seccion1__titulo {
+        font-size: 2.3rem;
+        margin-top: 0rem;
+        line-height: 3.5rem;
+        margin-bottom: 0rem;
+        &  span {
+            font-size: 2.3rem
+        }
+    } 
+    .seccion1__boxImg {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
     .seccion1__img {
         padding-left: 0;
         padding-right: 0;
     }
+}
+@media (min-width:992px) and (max-width: 1199px){
+    .seccion1__boxImg {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .seccion1__titulo {
+        margin-top: 1rem;
+        line-height: 3.6rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    } 
 }

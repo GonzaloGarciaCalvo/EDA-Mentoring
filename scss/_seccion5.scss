@@ -1,0 +1,76 @@
+.seccion5 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    grid-template-rows: 25vh 75vh;
+
+    .tituloEDA {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        position: relative;
+
+        h2 {
+            position: absolute;
+            top: 50%;
+            left: 8%;
+            font-weight: 800;
+            font-family: $WorkSans;
+            font-size: 32px;
+        }
+
+        p {
+            position: absolute;
+            top: 71%;
+            left: 8%;
+            font-weight: 700;
+            font-family: $WorkSans;
+            font-size: 20px;
+
+            .rojo {
+                color: #ff5c5c;
+
+            }
+
+            .amarillo {
+                color: #ffbd4a;
+            }
+
+            .gris {
+                color: #a8a8a8;
+            }
+        }
+    }
+
+    .metodoEDA {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 350px;
+            width: auto;
+        }
+    }
+
+    .textoEDA {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        margin-top: 10%;
+        p{
+            font-family: $OpenSans;
+            padding-right: 50px;
+            line-height: 38px;
+            font-size: 18px;
+            color: rgb(66, 66, 66);
+        }
+    }
+}

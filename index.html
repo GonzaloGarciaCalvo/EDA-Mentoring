@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300...800&family=Work+Sans:wght@300...800&family=Montserrat:wght@300...500&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300...800&family=Work+Sans:wght@300...800&family=Montserrat:wght@300...500&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Work+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/destino.css">
     <title>EDA Mentoring</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white pt-0" id="inicio">
@@ -26,9 +27,9 @@
                         <a class="nav-link" href="#"><p class="bigText">I</p><p class="normalText">NICIO</p></a>
                         <a class="nav-link" href="#Info Emprendedores" data-bs-toggle="modal" data-bs-target="#exampleModal1"> <p class="bigText">E</p><p class="normalText">MPRENDEDORES </p><p class="bigText"> /</p><p class="normalText">AS</p></a>
                         <a class="nav-link" href="#Info Emprendedores" class="btnInfo" data-bs-toggle="modal" data-bs-target="#exampleModal2"><p class="bigText">P</p><p class="normalText">ROFESIONALES</p></a>
-                        <a class="nav-link" href="#"><p class="bigText">M<span class="normalText">ÉTODO</span> E.D.A.</p> </a>
-                        <a class="nav-link" href="#"><p class="bigText">M<span class="normalText">ARCO DE</span> T<span class="pe-2 normalText">RABAJO</span></P></a>
-                        <a class="nav-link" href="#"><p class="bigText">Q</p><span class="normalText">UIÉN SOY</span></P></a>
+                        <a class="nav-link" href="#quienSoy"><p class="bigText">Q</p><span class="normalText">UIÉN SOY</span></P></a>
+                        <a class="nav-link" href="#metodoEDA"><p class="bigText">M<span class="normalText">ÉTODO</span> E.D.A.</p> </a>
+                        <a class="nav-link" href="#framework"><p class="bigText">M<span class="normalText">ARCO DE</span> T<span class="pe-2 normalText">RABAJO</span></P></a>
                         <a class="nav-link" href="https://wa.me/+5491166141508" target="blank"><p class="bigText">C</p><span class="normalText">ONTACTO</span></P></a>
                     </div>
                 </div>
@@ -36,18 +37,15 @@
         </nav>
     </header>
     <main class="conatiner-fluid m-0 g-0">
-        <section class="seccion1">
+        <section class="seccion1" id="seccionInicial">
             <div class="ms-md-5 me-md-3 row d-flex flex-md-row g-0">
-                <div class="col-12 col-md-4 ps-md-3 pe-md-5 seccion1__boxIzquierdo">
+                <div class="col-12 col-md-4 ps-md-0 ps-lg-3 pe-sm-2 pe-lg-5 seccion1__boxIzquierdo">
                     <div class="titledetail">
                         <p class="explorar">EXPLORAR <SPAN>+</SPAN></p><P class="disign">DISEÑAR <SPAN>+</SPAN></P><P class="accion">ACCIONAR</P>
                     </div>
                     <h2 class="seccion1__titulo ">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
                     <img src="images/eda_emprendedores.png" alt="ir a seccion emprendedores" class="seccion1__imgEmprendedores">
-                    <img src="images/eda_profesionales.png" alt="ir a sección profesionesles" class="seccion1__imgProfesionales">
-                    <!--  <a href="https://wa.me/+5491166141508" role="button" target="blank">
-                        <img src="images/whatsapp(1).png" alt="abrir whatsapp"class="btnWapp" >  
-                    </a>  -->                       
+                    <img src="images/eda_profesionales.png" alt="ir a sección profesionesles" class="seccion1__imgProfesionales">                
                 </div>
                 <div class="col-12 col-md-8 seccion1__boxImg">
                     <img src="images/Tiny creative people sharing ideas with abstract person.jpg" alt="" class="seccion1__img img-fluid">
@@ -67,24 +65,30 @@
             <article id="article1" class="col-md-6">
                 <!-- <article id="article1" class="col-md-6" data-aos="fade-up" data-aos-duration="1000"></article> -->
                 <div class="seccion3__emprendedores">
-                    <img src="images/eda_emprendedores.png" alt="logo emprendedores" class="logoEmpProfSec3">
+                    <img src="images/eda_emprendedores.svg" alt="logo emprendedores" class="logoEmpProfSec3">
                     <p class="mt-4">Orientada a emprendedores/as y freelancers que quieran impulsar sus ideas y proyectos.</p>
                 </div>
-                <div class="seccion3__boxTextoBtn">
-                    <!-- <h4>Diseño del Emprendimiento: De la Idea al Modelo de Negocio</h4> -->
-                    <div class="boxTextoBtn__texto">
-                        <p class="linea__p1">Diseño del Emprendimiento:</p> <p class="linea__p2">De la Idea al Modelo de Negocio</p>
+                <div class="seccion3__boxAuxiliar">
+                    <div class="seccion3__boxTextoBtn">
+                        <!-- <h4>Diseño del Emprendimiento: De la Idea al Modelo de Negocio</h4> -->
+                        <div class="boxTextoBtn__texto">
+                            <p class="linea__p1">Diseño del Emprendimiento:</p><p class="linea__p2">De la Idea al Modelo de Negocio</p>
+                        </div>
+                        <a class="dropdownEmp-Prof" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <img src="images/down-chevron.svg" alt="ver más información">
+                        </a>
                     </div>
-                    <a class="dropdownEmp-Prof" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <img src="images/down-chevron.jpg" alt="ver más información">
-                    </a>
                 </div>
                 <div class="collapse" id="collapseExample1">
                     <div class="card card-body">
-                        <p class="subtituloCrear">#Crear</p>
-                        <p>+ Querés emprender pero aún no estás seguro/a en qué. </p>
-                        <p class="subtituloAterrizar mt-2">#Aterrizar</p>
-                        <p>+ Tenés una idea, una que le ves potencial, y no sabés como convertirla en emprendimiento.</p>
+                        <div class="cardElement">
+                            <p class="subtituloCrear">#Crear</p>
+                            <p>+ Querés emprender pero aún no estás seguro/a en qué. </p>
+                        </div>
+                        <div class="cardElement">
+                            <p class="subtituloAterrizar">#Aterrizar</p>
+                            <p>+ Tenés una idea, una que le ves potencial, y no sabés como convertirla en emprendimiento.</p>
+                        </div>
                     </div>
                 </div>
                 <a href="#Info Emprendedores" class="btnInfo" data-bs-toggle="modal" data-bs-target="#exampleModal1">+ INFO</a>                
@@ -120,24 +124,30 @@
                     <p class="mt-4">Orientada a profesionales que quieran descubrir oportunidades formativas y de carrera que se
                         adapten a sus intereses y objetivos.</p>
                 </div>
-                <div class="seccion3__boxTextoBtn2">
-                    <!-- <h4>Diseño de Perfil Profesional: Hacia una versión 2.0</h4>
-                    <a class="" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <img src="images/down-chevron.jpg" alt="ver más información">
-                    </a> -->
-                    <div class="boxTextoBtn2__texto mt-2 mt-md-0">
-                        <p class="linea__p1">Diseño del Perfil Profesional:</p> <p class="linea__p2">Hacia una version 2,0</p>
-                    </div>
-                    <a class="dropdownEmp-Prof" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <img src="images/down-chevron.jpg" alt="ver más información">
-                    </a>
-                </div>                
+                <div class="seccion3__boxAuxiliar">
+                    <div class="seccion3__boxTextoBtn2">
+                        <!-- <h4>Diseño de Perfil Profesional: Hacia una versión 2.0</h4>
+                        <a class="" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <img src="images/down-chevron.jpg" alt="ver más información">
+                        </a> -->
+                        <div class="boxTextoBtn2__texto mt-2 mt-md-0">
+                            <p class="linea__p1">Diseño del Perfil Profesional:</p><p class="linea__p2">Hacia una version 2.0</p>
+                        </div>
+                        <a class="dropdownEmp-Prof" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <img src="images/down-chevron.jpg" alt="ver más información">
+                        </a>
+                    </div>                
+                </div>
                 <div class="collapse" id="collapseExample2">
                     <div class="card card-body">
-                        <p class="subtituloRemodelar">#Remodelar</p>
-                        <p>+ Estás en un trabajo que ya no te hace sentir motivado/a ni realizado/a.</p>
-                        <p class="subtituloReinventar mt-2">#Reinventar</p>
-                        <p>+ Querés trabajar de lo que te gusta, pero no conocés tus intereses, fortalezas y recursos.</p>
+                        <div class="cardElement">
+                            <p class="subtituloRemodelar">#Remodelar</p>
+                            <p>+ Estás en un trabajo que ya no te hace sentir motivado/a ni realizado/a.</p>
+                        </div>
+                        <div class="cardElement">
+                            <p class="subtituloReinventar ">#Reinventar</p>
+                            <p>+ Querés trabajar de lo que te gusta, pero no conocés tus intereses, fortalezas y recursos.</p>
+                        </div>
                     </div>
                 </div>
                 <a href="#Info Emprendedores" class="btnInfo" data-bs-toggle="modal" data-bs-target="#exampleModal2"> + INFO</a>
@@ -165,77 +175,183 @@
                     </div>
                 </div>
             </article>
-            <!-- <p class="seccion3__pie--texto1"><span class="seccion3__pie--texto2">S</span>I TENÉS DUDAS, COORDINEMOS <span
-                class="seccion3__pie--texto3"> <span class="seccion3__pie--texto4">S</span>ESIÓN DE EXPLORACION GRATUITA DE
-                30 MINUTOS</span> PARA CONOCERNOS, Y DESCUBRIR CUÁL ES LA PROPUESTA QUE MÁS SE AJUSTA A TUS NECESIDADES.
-            </p> -->
-            <p class="seccion3__pie--texto1">“Coordinemos una <span class="seccion3__pie--texto2">sesión gratuita de 30 minutos</span> para descubrir la mejor propuesta para vos”.  </p>
+            <p class="seccion3__pie--texto1">Coordinemos una <span class="seccion3__pie--texto2">sesión gratuita de 30 minutos</span> para descubrir la mejor propuesta para vos.  </p>
+        </section>
+        <section class="seccion4" id="quienSoy">
+            <img class="imgCecilia" src="images/sobreMi.jpg" style="height: 250px;" alt="Imagen Cecilia">
+            <div>
+                <h3>Quién soy:</h3>
+                <p> <span class="resaltado1">¡Hola! Soy Cecilia Nevole, Psicóloga Laboral, Coach Ontológico y
+                        Facilitadora Creativa.</span></p>
+                <p>Durante más de 10 años trabajé en el área de Capital Humano de una reconocida empresa, a cargo de
+                    <span class="resaltado1">procesos de Selección y Desarrollo de Personas.</span>
+                </p>
+                <p>Fiel a mi personalidad curiosa y emprendedora, comencé hace 6 años con mi camino independiente, así
+                    fui sumando herramientas, experiencias y recursos de diferentes disciplinas, metodologías y marcos
+                    de trabajo que hoy me permiten generar valor en los procesos de las personas que acompaño.</p>
+                <p>Uno de mis mayores aprendizajes es <span class="resaltado1">confiar en que todos los puntos de
+                        nuestra vida se conectan, cada paso en el camino, cada éxito o fracaso, cada decisión, cobra
+                        sentido cuando miramos hacia atrás </span>, como dijo Steve Jobs “No puedes conectar los puntos
+                    mirando hacia adelante; sólo puedes hacerlo mirando hacia atrás. Así que tienes que confiar en que
+                    los puntos se conectarán de alguna forma en el futuro”.</p>
+                <p>A través de la creación de "E.D.A. Mentoring“ logré conectar los puntos y encontrar significado en mi
+                    recorrido personal, profesional y académico, <span class="resaltado1">acompañando procesos de
+                        transformación, innovación y desarrollo profesional.</span></p>
+                <p>Te invito a trabajar sobre vos, sobre tus intereses, recursos y objetivos, sobre tus decisiones,
+                    <span class="resaltado1">confiando en tu <span class="negrita">CREATIVIDAD</span></span> para poder
+                    conectar “tus puntos” asumiendo el protagonismo en tu proceso de cambio.
+                </p>
+            </div>
+        </section>
+        <section class="seccion5" id="metodoEDA">
+            <div class="tituloEDA">
+                <h2>Mi Método: E.D.A.</h2>
+                <p> <span class="rojo">EXPLORAR</span> + <span class="amarillo">DISEÑAR</span> + <span
+                        class="gris">ACCIONAR</span></p>
+            </div>
+            <div class="metodoEDA">
+                <img src="images/MÉTODO EDA.jpg" alt="Metodo EDA">
+            </div>
+            <div class="textoEDA">
+                <p>Es un <span class="negrita">PROCESO</span> de <span class="resaltado2">tres etapas</span> que
+                    funciona como “itinerario” para llegar a tu <span class="negrita">OBJETIVO</span>, a través de la
+                    exploración de diferentes opciones, soluciones y retos. Todo el recorrido combina <span class="resaltado2">el <span class="negrita">PENSAR</span> y el <span
+                            class="negrita">HACER</span></span> e invita a conectar con tu <span
+                        class="negrita resaltado2">CREATIVIDAD</span> (unir ideas), asumiendo un rol de <span
+                        class="negrita resaltado2">PROTAGONISTA</span> (responsable de tu proceso), una <span
+                        class="negrita resaltado2">MENTALIDAD CURIOSA</span> (abierta al aprendizaje) y una <span
+                        class="negrita resaltado2">ACTITUD FOCALIZADA</span> (hacia el objetivo).</p>
+            </div>
+        </section>
+        <section class="seccion6" id="EDA">
+            <div class="laE">
+                <div class="letra">
+                    <h2>E</h2>
+                    <div>
+                        <h3>EXPLORAR</h3>
+                        <span>Autoconocimiento</span>
+                    </div>
+                </div>
+                <div class="texto">
+                    <p>Vamos a mapear tu situación actual, conectando con tu <span class="negrita">singularidad</span>,
+                        para conocerte a un nivel
+                        mucho más profundo, develando aquello que <span class="negrita">te impulsa</span> y lo que
+                        funciona como <span class="negrita">obstáculo</span>. Exploraremos tus <span
+                            class="negrita">intereses</span>, <span class="negrita">capitalizaremos</span> tus <span
+                            class="negrita">experiencias</span> para potenciar tus posibilidades de
+                        acción.</p>
+                </div>
+            </div>
+            <div class="laD">
+                <div class="letra">
+                    <h2>D</h2>
+                    <div>
+                        <h3>DISEÑAR</h3>
+                        <span>Creación</span>
+                    </div>
+                </div>
+                <div class="texto">
+                    <p>Utilizaremos la metodología <span class="negrita">Design Thinking</span> o Pensamiento de Diseño
+                        para analizar problemas,
+                        descubrir oportunidades, plantear hipótesis, diseñar tu <span class="negrita">propuesta única de
+                            valor</span> de forma
+                        <span class="negrita">creativa e
+                            innovadora.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="laA">
+                <div class="letra">
+                    <h2>A</h2>
+                    <div>
+                        <h3>ACCIONAR</h3>
+                        <span>Planificación</span>
+                    </div>
+                </div>
+                <div class="texto">
+                    <p>Diseñaremos tu propio <span class="negrita">plan de acción</span> para lograr tus objetivos con
+                        eficiencia y eficacia, y
+                        aprenderás a <span class="negrita">reajustarlo</span>, evaluando qué salió bien, qué salió mal y
+                        qué se puede aprender y
+                        cambiar.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="seccion7" id="framework">
+            <h2><span class="negrita">Multi-Framework</span> (Marco de Trabajo Multidisciplinario)</h2>
+            <div class="texto">
+                <p>En mi rol de facilitadora creativa, <span class="negrita">fusiono ideas</span>, ejercicios,
+                    herramientas y estrategias de diferentes disciplinas y metodologías, dando como resultado un
+                    abordaje multidisciplinario, dinámico, versátil, focalizado no sólo en el logro de tu objetivo sino
+                    <span class="negrita">en el proceso en sí mismo.</span></p>
+            </div>
+        </section>
+        <section class="seccion8" id="lista">
+            <div class="principal">
+                <div class="texto">
+                    <p><span class="resaltado3">COACHING ONTOLÓGICO</span></p>
+                    <p>Generar nuevas perspectivas, tomar consciencia y maximizar la capacidad de acción, a través de preguntas que generen nuevas posibilidades.</p>
+                    <p><span class="resaltado3">DESIGN THINKING</span></p>
+                    <p>Resolver problemas y retos planteando soluciones diferentes, inesperadas o innovadoras, mediante la observación, la empatía y la creatividad.</p>
+                    <p><span class="resaltado3">MENTORING</span></p>
+                    <p>Brindar herramientas, perspectivas, guías, experiencias, consejos y conocimientos para incluirlas en tu estrategia.</p>
+                    <p><span class="resaltado3">AGILIDAD</span></p>
+                    <p>Adquirir el mindset de la rápida adaptación ante los cambios.</p>
+                </div>
+                <div class="imagen">
+                    <img loading="lazy" src="images/Team of people putting puzzle pieces of huge head together.jpg" alt="Personas armando cabeza juntos">
+                </div>
+            </div>
+            <p class="textoFondo"><span class="resaltado1">ESTA COMBINACIÓN INVITA A PENSAR EN INICIATIVAS MUCHO MÁS ASERTIVAS, COMPRENDER MEJOR CADA DESAFÍO Y CADA SOLUCIÓN QUE SE DISEÑA.</span>
+            </p>
+
+        </section>
+        <section class="seccion9" id="proceso">
+            <div class="imagen">
+                <img loading="lazy" src="images/Tiny people moving giant gears.jpg" alt="Personas moviendo tuercas">
+            </div>
+            <div class="texto">
+                <h3><span class="negrita">¿Cómo es el Proceso?
+                </span></h3>
+                <p><span class="resaltado1 negrita">+ Sesión 1 (conversación de coaching)
+                </span></p>
+                <p>Definición de objetivo del proceso: qué querés lograr y 
+                    para qué querés lograrlo.
+                    </p>
+                <p><span class="resaltado1 negrita">+ 12 Sesiones de Trabajo (1:1) con frecuencia SEMANAL 
+                </span></p>
+                <p>Trabajaremos vía ZOOM, y utilizaremos Plataformas Colaborativas como MURAL y MIRO. 90 minutos por encuentro. 100% VIRTUAL y en VIVO. </p>
+                <p><span class="resaltado1 negrita">+ Entregable Semanal</span></p>
+                <p>Documento con lo trabajado en cada sesión.</p>
+                <p><span class="resaltado1 negrita">+ Objetivos entre Sesiones de Trabajo</span></p>
+                <p>Desafíos que permitan poner en práctica lo trabajado cada semana.</p>
+                <p><span class="resaltado1 negrita">+ Recursos | Aplicaciones | Herramientas</span></p>
+                <p>Para reflexionar, medir tu tiempo, organizar tareas y prioridades. </p>
+                <p><span class="resaltado1 negrita">+ Acceso a tu proyecto en MURAL</span></p>
+                <p>Acceso 24x7 a todos los contenidos de la mentoría: videos, hojas de ejercicios, etc.</p>
+            </div>
+        </section>
+        <section class="seccion10" id="final">
+            <div class="imagen">
+                <img loading="lazy" src="images/frase_final.jpg" alt="Frase Final">
+            </div>
+            <div class="texto">
+                <p>¿Tenés alguna consulta? ¿Querés más información?</p>
+                <p>Conversemos</p>
+            </div>
+            <div class="redes">
+                <a target="_blank" href="https://www.instagram.com/eda.mentoring/"><img loading="lazy" src="images/instagram-brands.svg" alt="Logo Instagram"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/cecilianevole/"><img loading="lazy" src="images/linkedin-in-brands.svg" alt="Logo Linkedin"></a>
+                <a target="_blank" href="mailto:eda.mentoring@gmail.com"><img loading="lazy" src="images/envelope-solid.svg" alt="Logo Email"></a>
+                <a target="_blank" href="https://wa.me/+5491166141508"><img loading="lazy" src="images/whatsapp-brands.svg" alt="Logo WhatsApp"></a>
+            </div>
         </section>
     </main>
     <footer class="container-fluid">
-
     </footer>
-    
-   <!--  <div class="d-flex flex-column recuadroEmprendedores m-5">
-        <div class="d-flex flex-row">
-            <div class="px-1 circuloE" >
-                <p class="textoCirculo">E</p>
-            </div>
-            <div class="mx-1 px-1 circuloD" >
-                <p class="textoCirculo">D</p>
-            </div>
-            <div class="px-1 circuloA">
-                <p class="textoCirculo">A</p>
-            </div>
-        </div>    
-        <div>
-            <p class="tituloEmprendedores">EMPRENDEDORES/AS</p>
-        </div>
-    </div> 
-    <div class="d-flex flex-column recuadroProfesionales m-5">
-        <div class="d-flex flex-row">
-            <div class="px-1 circuloE" >
-                <p class="textoCirculo">E</p>
-            </div>
-            <div class="mx-1 px-1 circuloD" >
-                <p class="textoCirculo">D</p>
-            </div>
-            <div class="px-1 circuloA">
-                <p class="textoCirculo">A</p>
-            </div>
-        </div>    
-        <div>
-            <p class="tituloProfesionales">PROFESIONALES</p>
-        </div>
-    </div> -->
-    <!-- <section>  
-        <h2 class="seccion1__titulo2">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
-        
-        <h2 class="seccion1__titulo3">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
-        
-        <h2 class="seccion1__titulo3_1">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
-
-        <h2 class="seccion1__titulo3_2">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
-
-        <h2 class="seccion1__titulo4">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
-       
-        <h2 class="seccion1__titulo5">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
-    
-        <h2 class="seccion1__titulo6">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
-        
-        <h2 class="seccion1__titulo7">Coaching Creativo para el <span>Rediseño Profesional</span> </h2>
-        
-        <div class="titleBox animate__animated animate__heartBeat">
-            <h2 class="firstPartTitle">Coaching Creativo para el </h2><h2 class="secondPartTitle animate__animated animate__heartBeat">Rediseño Profesional</h2>
-            
-        </div> 
-    </section> -->
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-<script src="main.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script> 
-    AOS.init(); 
-</script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 </html>
