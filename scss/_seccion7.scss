@@ -9,23 +9,124 @@
 
     h2{
         font-family: $WorkSans;
-        margin-top: 15vh;
+        margin-top: 20vh;
     }
     .texto{
         position: absolute;
         height: 45vh;
         width: 80vw;
-        margin-top: 35vh;
+        margin-top: 30vh;
         margin-left: 10vw;
         display: flex;
         justify-content: center;
         align-items: center;
         p{
             font-family: $OpenSans;
-            line-height: 70px;
+            line-height: 60px;
             text-align: center;
             font-size: 20px;
             padding: 0 15px 0 15px;
         }
     }
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    .seccion7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: unset;
+        background-color: #ffbd4a;
+        position: unset;
+        margin-top: 20px;
+    
+        h2{
+            margin-top: 20vh;
+        }
+        .texto{
+            position: unset;
+            height: 45vh;
+            width: 80vw;
+            margin-top: 5vh;
+            margin-left: unset;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-family: $OpenSans;
+                line-height: 60px;
+                text-align: center;
+                font-size: 20px;
+                padding: 10vh 15px 0 15px;
+            }
+        }
+    }    
+}
+
+@media (min-width:578px) and (max-width: 767px) {
+    .seccion7{
+        height: fit-content;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2{
+            text-align: center;
+            margin-top: 5vh;
+            width: 80vw;
+        }
+        .texto{
+            position: unset;
+            height: 45vh;
+            width: 80vw;
+            margin-top: 5vh;
+            margin-left: unset;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-family: $OpenSans;
+                line-height: 40px;
+                text-align: center;
+                font-size: 18px;
+                padding: 5vh 2vw 0 2vw;
+            }
+        }
+    }
+}
+
+@media (max-width:577px){
+    .seccion7{
+        min-height: 100vh;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+        position: unset;
+    
+        h2{
+            margin-top: 3vh;
+            padding: 0 4vw 0 4vw;
+            text-align: center;
+        }
+        .texto{
+            position: unset;
+            height: unset;
+            width: unset;
+            margin-top: unset;
+            margin-left: unset  ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-family: $OpenSans;
+                line-height: 2.5rem;
+                text-align: center;
+                font-size: 1.125rem;
+                padding: 0 1rem 0 1rem;
+            }
+        }
+    }   
 }

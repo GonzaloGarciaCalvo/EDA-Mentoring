@@ -12,16 +12,18 @@
     font-weight: 700;
 }
 .seccion4 {
-    min-height: calc(100vh - 70px);
+    min-height: 100vh;
     height: fit-content;
     background-color: #ffbd4a;
-    display: grid;
-    grid-template-columns: 350px 1fr;
+    display: flex;
 
     div {
-        margin-top: 80px;
-        margin-bottom: 10px;
-        padding-bottom: 20px;
+        width: 75vw;
+        margin-top: 6rem;
+        margin-bottom: 0.625rem;
+        padding-bottom: 1.125rem;
+        padding-right: 2.5rem;
+        padding-left: 2rem;
         h3{
             font-weight: 700;
             font-family: $WorkSans;
@@ -29,15 +31,125 @@
 
         p {
             font-family: $OpenSans;
-            font-size: 16px;
-            line-height: 30px;
-            padding: 0 10px 0 0;
+            font-size: 1rem;
+            line-height: 1.9rem;
+            padding: 0 0.625rem 0 0;
         }
     }
 
     .imgCecilia {
-        margin-top: 100px;
-        margin-left: 50px;
+        margin-top: 6.125rem;
+        margin-left: 2rem;
         border-radius: 50%;
+        height: 40vh;
+    }
+}
+
+@media (min-width:768px) and (max-width: 991px){
+    .seccion4 {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        align-items: center;
+        padding-top: 3rem;
+        div {
+            position: unset;
+            width: 90vw;
+            margin-top: 1rem;
+            margin-bottom: 0.625rem;
+            padding-bottom: 0.5rem;
+            padding-right: 0.8rem;
+            padding-left: 0.8rem;
+            h3{
+                font-size: 1.8rem;
+            }
+    
+            p {
+                font-family: $OpenSans;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                padding: unset;
+            }
+        }
+    
+        .imgCecilia {
+            margin: auto;
+            margin-top: 2rem;
+            border-radius: 50%;
+            height: 45vh;
+        }
+    }
+
+}
+
+@media (min-width:578px) and (max-width: 767px){
+    .seccion4 {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        align-items: center;
+        padding-top: 3rem;
+        div {
+            position: unset;
+            width: 90vw;
+            margin-top: 1rem;
+            margin-bottom: 0.625rem;
+            padding-bottom: 0.5rem;
+            padding-right: 0.8rem;
+            padding-left: 0.8rem;
+            h3{
+                font-size: 1.8rem;
+            }
+    
+            p {
+                font-family: $OpenSans;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                padding: unset;
+            }
+        }
+    
+        .imgCecilia {
+            margin: auto;
+            margin-top: 2rem;
+            border-radius: 50%;
+            height: 45vh;
+        }
+    }
+}
+
+@media (max-width:577px){
+    .seccion4 {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        align-items: center;
+        padding-top: 3rem;
+        div {
+            position: unset;
+            width: 90vw;
+            margin-top: 1rem;
+            margin-bottom: 0.625rem;
+            padding-bottom: 0.5rem;
+            padding-right: 0.8rem;
+            padding-left: 0.8rem;
+            h3{
+                font-size: 1.8rem;
+            }
+    
+            p {
+                font-family: $OpenSans;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                padding: unset;
+            }
+        }
+    
+        .imgCecilia {
+            margin: auto;
+            margin-top: 1rem;
+            border-radius: 50%;
+            height: 200px;
+        }
     }
 }

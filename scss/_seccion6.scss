@@ -1,5 +1,6 @@
 .seccion6 {
-    height: calc(100vh - 70px);
+    min-height: calc(100vh - 70px);
+    height: fit-content;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 15px;
@@ -170,3 +171,482 @@
         }
     }
 }
+
+@media (min-width:768px) and (max-width: 991px) {
+    .seccion6 {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    
+        .texto {
+            font-size: 1rem;
+            padding: unset;
+            width: 90vw;
+            line-height: 2rem;
+        }
+        .letra{
+            width: 85vw;
+            display: flex;
+            align-items: center;
+        }
+    
+        .laE {
+            display: flex;
+            flex-direction: column;
+    
+            .letra {
+                position: unset;
+                justify-content: flex-start;
+                h2 {
+                    font-family: $WorkSans;
+                    font-weight: 600;
+                    position: unset;
+                    font-size: 40px;
+                    background-color: #ff5c5c;
+                    height: 90px;
+                    width: 90px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    margin: 30px;
+                    margin-left: 30%;
+                }
+    
+                div {
+                    text-align: center;
+                    position: unset;
+                    margin-left: 0%;    
+                    h3 {
+                        color: #ff5c5c;
+                        font-size: 24px;
+                        font-family: $WorkSans;
+                        font-weight: 400;
+                    }
+    
+                    span {
+                        font-family: $WorkSans;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    
+        .laD {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+    
+            .letra {
+                position: unset;
+                justify-content: flex-start;
+                h2 {
+                    position: unset;
+                    left: 5vh;
+                    top: 5vh;
+                    font-family: $WorkSans;
+                    font-weight: 600;
+                    font-size: 40px;
+                    background-color: #ffbd4a;
+                    height: 90px;
+                    width: 90px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    margin: 30px;
+                    margin-left: 30%;
+                }
+    
+                div {
+                    text-align: center;
+                    position: unset;
+                    margin: 0;    
+    
+                    h3 {
+                        font-family: $WorkSans;
+                        font-weight: 400;
+                        color: #ffbd4a;
+                        font-size: 24px;
+                    }
+    
+                    span {
+                        font-family: $WorkSans;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    
+        .laA {
+            background-color: #d9d9d9;
+            display: flex;
+            flex-direction: column;
+    
+            .letra {
+                position: unset;
+                justify-content: flex-start;
+
+    
+                h2 {
+                    position: unset;
+                    left: 20%;
+                    font-family: $WorkSans;
+                    font-weight: 600;
+                    font-size: 40px;
+                    background-color: #a6a6a6;
+                    height: 90px;
+                    width: 90px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    margin: 30px;
+                    margin-left: 30%;
+                }
+    
+                div {
+                    text-align: center;
+                    position: unset;
+                    margin-left: 0;    
+    
+                    h3 {
+                        color: #a8a8a8;
+                        font-size: 24px;
+                        font-family: $WorkSans;
+                        font-weight: 400;
+                    }
+    
+                    span {
+                        font-family: $WorkSans;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width:578px) and (max-width: 767px) {
+    .seccion6 {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    
+        .texto {
+            font-size: 1rem;
+            padding: unset;
+            width: 90vw;
+            line-height: 2rem;
+        }
+        .letra{
+            width: 85vw;
+            display: flex;
+            align-items: center;
+        }
+    
+        .laE {
+            display: flex;
+            flex-direction: column;
+    
+            .letra {
+                position: unset;
+                justify-content: flex-start;
+                h2 {
+                    font-family: $WorkSans;
+                    font-weight: 600;
+                    position: unset;
+                    font-size: 40px;
+                    background-color: #ff5c5c;
+                    height: 90px;
+                    width: 90px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    margin: 30px;
+                    margin-left: 30%;
+                }
+    
+                div {
+                    text-align: center;
+                    position: unset;
+                    margin-left: 0%;    
+                    h3 {
+                        color: #ff5c5c;
+                        font-size: 24px;
+                        font-family: $WorkSans;
+                        font-weight: 400;
+                    }
+    
+                    span {
+                        font-family: $WorkSans;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    
+        .laD {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+    
+            .letra {
+                position: unset;
+                justify-content: flex-start;
+                h2 {
+                    position: unset;
+                    left: 5vh;
+                    top: 5vh;
+                    font-family: $WorkSans;
+                    font-weight: 600;
+                    font-size: 40px;
+                    background-color: #ffbd4a;
+                    height: 90px;
+                    width: 90px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    margin: 30px;
+                    margin-left: 30%;
+                }
+    
+                div {
+                    text-align: center;
+                    position: unset;
+                    margin: 0;    
+    
+                    h3 {
+                        font-family: $WorkSans;
+                        font-weight: 400;
+                        color: #ffbd4a;
+                        font-size: 24px;
+                    }
+    
+                    span {
+                        font-family: $WorkSans;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    
+        .laA {
+            background-color: #d9d9d9;
+            display: flex;
+            flex-direction: column;
+    
+            .letra {
+                position: unset;
+                justify-content: flex-start;
+
+    
+                h2 {
+                    position: unset;
+                    left: 20%;
+                    font-family: $WorkSans;
+                    font-weight: 600;
+                    font-size: 40px;
+                    background-color: #a6a6a6;
+                    height: 90px;
+                    width: 90px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    margin: 30px;
+                    margin-left: 30%;
+                }
+    
+                div {
+                    text-align: center;
+                    position: unset;
+                    margin-left: 0;    
+    
+                    h3 {
+                        color: #a8a8a8;
+                        font-size: 24px;
+                        font-family: $WorkSans;
+                        font-weight: 400;
+                    }
+    
+                    span {
+                        font-family: $WorkSans;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:577px){
+    .seccion6 {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    
+        .texto {
+            font-size: 1rem;
+            padding: unset;
+            width: 90vw;
+            line-height: 2rem;
+        }
+        .letra{
+            width: 85vw;
+            display: flex;
+            align-items: center;
+        }
+    
+        .laE {
+            display: flex;
+            flex-direction: column;
+    
+            .letra {
+                position: unset;
+                justify-content: flex-start;
+                h2 {
+                    font-family: $WorkSans;
+                    font-weight: 600;
+                    position: unset;
+                    left: 20%;
+                    font-size: 40px;
+                    background-color: #ff5c5c;
+                    height: 90px;
+                    width: 90px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    margin: 30px;
+                    margin-left: 10%;
+                }
+    
+                div {
+                    text-align: center;
+                    position: unset;
+                    margin-left: 0;    
+                    h3 {
+                        color: #ff5c5c;
+                        font-size: 24px;
+                        font-family: $WorkSans;
+                        font-weight: 400;
+                    }
+    
+                    span {
+                        font-family: $WorkSans;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    
+        .laD {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+    
+            .letra {
+                position: unset;
+                justify-content: flex-start;
+                h2 {
+                    position: unset;
+                    left: 5vh;
+                    top: 5vh;
+                    font-family: $WorkSans;
+                    font-weight: 600;
+                    font-size: 40px;
+                    background-color: #ffbd4a;
+                    height: 90px;
+                    width: 90px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    margin: 30px;
+                    margin-left: 10%;
+                }
+    
+                div {
+                    text-align: center;
+                    position: unset;
+                    margin-left: 0;    
+    
+                    h3 {
+                        font-family: $WorkSans;
+                        font-weight: 400;
+                        color: #ffbd4a;
+                        font-size: 24px;
+                    }
+    
+                    span {
+                        font-family: $WorkSans;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    
+        .laA {
+            background-color: #d9d9d9;
+            display: flex;
+            flex-direction: column;
+    
+            .letra {
+                position: unset;
+                justify-content: flex-start;
+
+    
+                h2 {
+                    position: unset;
+                    left: 20%;
+                    font-family: $WorkSans;
+                    font-weight: 600;
+                    font-size: 40px;
+                    background-color: #a6a6a6;
+                    height: 90px;
+                    width: 90px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    margin: 30px;
+                    margin-left: 10%;
+                }
+    
+                div {
+                    text-align: center;
+                    position: unset;
+                    margin-left: 0;    
+    
+                    h3 {
+                        color: #a8a8a8;
+                        font-size: 24px;
+                        font-family: $WorkSans;
+                        font-weight: 400;
+                    }
+    
+                    span {
+                        font-family: $WorkSans;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
